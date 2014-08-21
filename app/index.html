@@ -15,7 +15,6 @@
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/foundation/js/foundation.min.js"></script>
         <script src="bower_components/angular/angular.min.js"></script>
-        <script src="bower_components/angular-resource/angular-resource.min.js"></script>
         <script src="bower_components/angular-route/angular-route.min.js"></script>
     </head>
     <body>
@@ -27,7 +26,9 @@
         <div class="fixed">
             <nav class="top-bar" data-topbar>
                 <ul class="top-bar-left">
-                    <li class="logo"></li>
+                    <li class="logo">
+                        <a href="/">Zumba Style Guide</a>
+                    </li>
                 </ul>
                 <section class="top-bar-section">
                     <ul class="right" ng-controller="Navigation" ng-model="linkList">
@@ -38,15 +39,16 @@
                 </section>
             </nav>
         </div><!-- end top navigation -->
-        <div class="row">
+        <div class="row layout" style="margin-top:10em;">
             <section class="small-3 sidebar">
                
             </section><!-- /.sidebar -->
-            <section class="small-9 main">
-                
+            <section class="small-9 main" ng-controller="Main">
+                <div ng-view></div>
             </section><!-- /.main -->
         </div>
         <script src="js/app.js"></script>
         <script src="js/controllers/navigation.js"></script>
+        <script src="js/controllers/main.js"></script>
     </body>
 </html>
