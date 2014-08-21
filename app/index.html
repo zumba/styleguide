@@ -25,7 +25,7 @@
         <!-- Add your site or application content here -->
         <div class="fixed">
             <nav class="top-bar" data-topbar>
-                <ul class="top-bar-left">
+                <ul class="top-bar-left left">
                     <li class="logo">
                         <a href="/">Zumba Style Guide</a>
                     </li>
@@ -33,22 +33,18 @@
                 <section class="top-bar-section">
                     <ul class="right" ng-controller="Navigation" ng-model="linkList">
                         <li ng-repeat="link in linkList">
-                            <a href="#/{{link}}">{{link}}</a>
+                            <a href="#/{{link}}" ng-click="setRoute()">{{link}}</a>
                         </li>
                     </ul>
                 </section>
             </nav>
         </div><!-- end top navigation -->
-        <div class="row layout" style="margin-top:10em;">
-            <section class="small-3 sidebar">
-               
-            </section><!-- /.sidebar -->
-            <section class="small-9 main" ng-controller="Main">
-                <div ng-view></div>
-            </section><!-- /.main -->
+        <div class="row layout" style="margin-top:10em;" ng-controller="Sidebar">
+            <div class="small-3 columns sidebar" ng-view></div>
+            <div class="small-9 columns main" ng-include src="template"></div>
         </div>
         <script src="js/app.js"></script>
-        <script src="js/controllers/navigation.js"></script>
-        <script src="js/controllers/main.js"></script>
+        <script src="js/Controller/navigation.js"></script>
+        <script src="js/Controller/sidebar.js"></script>
     </body>
 </html>

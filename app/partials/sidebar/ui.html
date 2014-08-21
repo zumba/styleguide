@@ -1,0 +1,5 @@
+<ul ng-model="linkList">
+	<li ng-repeat="link in linkList">
+		<a href="" data-template="{{directory}}/{{link}}.html" ng-click="updateContent($event)">{{link}}</a>
+	</li>
+</ul>
