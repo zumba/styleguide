@@ -1,6 +1,8 @@
 {
 	"name": "ZUMBA_STYLE_GUIDE",
+	"private": true,
 	"dependencies": {
-		"foundation": "~5.1.0"
+		"foundation": "~5.2.3",
+		"angular": "~1.2.18"
 	}
 }
