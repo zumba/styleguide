@@ -13,4 +13,18 @@ Zumba's Styleguide
 <h4>PAGE CREATION</h4>
 1. Create an HTML file in the 'views' directory (or in a subdirectory in 'views' as needed, for example 'design')
 2. Add the route to the 'js/app.js' Router function, with the path to the new file and desired browser path.
+
+	```
+	.when('/', 
+	    {
+	        templateUrl: 'views/new-page.html',
+	        controller: 'ContentController'
+	    })
+	```
+
 3. Add the link to the 'views/sidebar.html' file.
+	```
+	<li ng-class="setActive('/new-page')">
+            <a href="#new-page">New Page</a>
+        </li>
+	```
