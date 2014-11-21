@@ -3,19 +3,19 @@
 # Set this to the root of your project when deployed:
 project_path = File.expand_path(File.dirname(__FILE__))
 http_path = '/'
-sass_dir = 'css'
+sass_dir = 'scss'
 
-css_dir = '../app/css/'
-css_path = '../app/css/'
+css_dir = 'css/'
+css_path = 'css/'
 http_stylesheets_path = http_path + 'css/'
 
-images_dir = '../app/img/'
-images_path = '../app/img/'
+images_dir = 'img/'
+images_path = 'img/'
 http_images_path = http_path + 'img/'
 http_generated_images_path = http_images_path
 
-javascripts_dir = '../app/js/'
-javascripts_path = '../app/js/'
+javascripts_dir = 'js/'
+javascripts_path = 'js/'
 http_javascripts_path = http_path + 'js/'
 
 # You can select your preferred output style here (can be overridden via the command line):
