@@ -24,16 +24,14 @@
         <div class="off-canvas-wrap" data-offcanvas>
             <div class="inner-wrap">
                 <div>
-                    <nav class="top-bar" data-topbar>
-                        <a class="left-off-canvas-toggle burger" href="#" >Menu</a>
-                        <a href="/index.html"class="logo">Zumbatech</a>
+                    <nav class="header-bar" data-topbar>
+                        <div class="row">
+                            <!-- <a class="left-off-canvas-toggle burger" href="#" >Menu</a> -->
+                            <a href="/index.html"class="logo">Zumbatech</a>
+                            <h1>Style Guide</h1>
+                        </div>
                     </nav>
                 </div>
-                
-                        <!-- <a class="left-off-canvas-toggle" href="#" >Menu</a> -->
-                    
-
-
                 <!-- Off Canvas Menu -->
                 <aside class="left-off-canvas-menu">
                     <!-- whatever you want goes here -->
@@ -42,7 +40,7 @@
                     </ul>
                 </aside>
 
-                <div class="row" style="padding-top:5em;" ng-controller="ContentController">
+                <div class="row main-wrap" ng-controller="ContentController">
                     <div class="main" ng-view></div>
                 </div>
                 <a class="exit-off-canvas"></a>

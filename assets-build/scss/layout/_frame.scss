@@ -1,3 +1,43 @@
 
 // layout frame
 
+.row {
+	max-width: 70rem;
+}
+
+.main-wrap {
+	padding-top: 3em;
+}
+
+.side-menu {
+	background: $sg-light-gray;
+	@include border-radius(.3em);
+	margin: 0;
+
+	li {
+		list-style: none;
+
+		&:first-of-type a {
+			padding-top: 1em;
+			@include border-radius(.3em .3em 0 0);
+		}
+
+		&:last-of-type a {
+			padding-bottom: 1em;
+			@include border-radius(0 0 .3em .3em);
+		}
+	}
+
+	a {
+		width: 100%;
+		padding: .5em 1em .5em 2em;
+		display: block;
+		color: $sg-dark-gray;
+		@include single-transition(all, 150ms);
+
+		&:hover {
+			color: #fff;
+			background: $sg-mid-gray;
+		}
+	}
+}

@@ -19,16 +19,16 @@ ZSG.config(function($routeProvider) {
     $routeProvider
     .when('/', 
     {
-        templateUrl: 'views/home.html',
+        templateUrl: 'views/intro.html',
         controller: 'ContentController'
     })
 
     .when(
-    	'/design', 
-    	{
-    		templateUrl: 'views/design/index.html', 
-    		controller: 'ContentController'
-    	})
+        '/contents/code', 
+        {
+            templateUrl: 'views/contents/code.html', 
+            controller: 'ContentController'
+        })
     
     .otherwise('/')
 });

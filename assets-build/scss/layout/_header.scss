@@ -1,21 +1,40 @@
 
 // header
 
-.top-bar {
+.header-bar {
 	height: 6em;
-	background: #dcdfe2;
+	background: $sg-dark-gray;
+
+	.row {
+		padding: 1.67em 0.9375rem 0 0.9375rem;
+	}
+
+	h1 {
+		float: right;
+		@include b-bold;
+		@include font-size(20);
+		margin-bottom: 0;
+		line-height: 1.1;
+		letter-spacing: -.025em;
+		display: inline-block;
+		margin-top: .5em;
+		color: $sg-light-gray;
+		text-transform: none;
+	}
 }
 
 .burger {
 	position: absolute;
-	left: 1em;
+	left: 2em;
+	top: 1.5em;
 }
 
 .logo {
-	width: 284px;
-	height: 50px;
+	width: 230px;
+	height: 40px;
 	text-indent: -9999px;
-	display: block;
-	margin: 1.5em auto 0;
+	display: inline-block;
+	//margin: 1.67em auto 0;
 	background: url('/img/zumba-tech-logo.svg') 0 0 no-repeat;
 }
+

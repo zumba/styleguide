@@ -1,0 +1,60 @@
+// Colors
+
+$white: #FFF;
+$midnight: #1D1D24;
+$pink: #e73e5d;
+$zumba-yellow: #DAE251;
+
+$extra-light-gray: #eff0f6;
+$light-gray: #DADAE2;
+$mid-gray: #95959A;
+$darkness-gray: #2c2d37;
+
+$slate: #606b76;
+$warm-gray: #353541;
+
+$red: #d0000d;
+$orange: #fa962c;
+$black: #222;
+$purple: #6C207E;
+
+$blue: #26c1e2;
+$mid-blue: #018ca9;
+
+// zumba colors
+
+$z-zumba: #dae251;
+$z-zumba-2: #959ca1;
+$z-aqua: #00a0af;
+$z-circuit: #959ca1;
+$z-gold: #f8981d;
+//$z-gold-toning: @extend %z-gold-toning;
+$z-kids: #dae251;
+$z-kidsjr: #dae251;
+$z-sentao: #9c0059;
+$z-step: #dae251;
+$z-toning: #732b85;
+$z-zumbini: #e50278;
+
+%z-gold-toning {
+	background: #f8981d;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZjg5ODFkIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzczMmI4NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(-45deg,  #f8981d 0%, #732b85 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f8981d), color-stop(100%,#732b85));
+	background: -webkit-linear-gradient(-45deg,  #f8981d 0%,#732b85 100%);
+	background: -o-linear-gradient(-45deg,  #f8981d 0%,#732b85 100%);
+	background: -ms-linear-gradient(-45deg,  #f8981d 0%,#732b85 100%);
+	background: linear-gradient(135deg,  #f8981d 0%,#732b85 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8981d', endColorstr='#732b85',GradientType=1 );
+}
+
+// FOR THE STYLE GUIDE
+
+$sg-dark-gray: #303840;
+$sg-mid-gray: #4d5a66;
+$sg-light-gray: #b7c4d2;
+$mad-mint: #DBFFB9;
+
+
+
+
