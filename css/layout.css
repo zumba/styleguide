@@ -1,4 +1,102 @@
 @import url("//hello.myfonts.net/count/2a825c");
+/* line 39, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.c-z-gold-toning {
+  background: #f8981d;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZjg5ODFkIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzczMmI4NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(-45deg, #f8981d 0%, #732b85 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #f8981d), color-stop(100%, #732b85));
+  background: -webkit-linear-gradient(-45deg, #f8981d 0%, #732b85 100%);
+  background: -o-linear-gradient(-45deg, #f8981d 0%, #732b85 100%);
+  background: -ms-linear-gradient(-45deg, #f8981d 0%, #732b85 100%);
+  background: linear-gradient(135deg, #f8981d 0%, #732b85 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8981d', endColorstr='#732b85',GradientType=1 );
+}
+
+/* line 61, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba {
+  background: url("/img/patterns/pattern-yellow.jpg") repeat;
+}
+
+/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-aqua-zumba {
+  background: url("/img/patterns/pattern-aqua.jpg") repeat;
+}
+
+/* line 69, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-in-the-circuit {
+  background: url("/img/patterns/pattern-gray.jpg") repeat;
+}
+
+/* line 73, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-gold {
+  background: url("/img/patterns/pattern-gold.jpg") repeat;
+}
+
+/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-gold-toning {
+  background: url("/img/patterns/pattern-purple.jpg") repeat;
+}
+
+/* line 81, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-kids {
+  background: url("/img/patterns/pattern-yellow.jpg") repeat;
+}
+
+/* line 85, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-kids-jr {
+  background: url("/img/patterns/pattern-yellow.jpg") repeat;
+}
+
+/* line 89, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-sentao {
+  background: url("/img/patterns/pattern-sentao.jpg") repeat;
+}
+
+/* line 93, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-step {
+  background: url("/img/patterns/pattern-yellow.jpg") repeat;
+}
+
+/* line 97, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-toning {
+  background: url("/img/patterns/pattern-purple.jpg") repeat;
+}
+
+/* line 101, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumbini {
+  background: url("/img/patterns/pattern-pink.jpg") repeat;
+}
+
+/* line 105, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-dark {
+  background: url("/img/patterns/dark-pattern.png") repeat;
+}
+
+/* line 109, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-wave-black {
+  background: url("/img/patterns/pattern-wavy-black.gif") repeat;
+}
+
+/* line 113, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-wave-pink {
+  background: url("/img/patterns/pink-wavy-bg.png") repeat;
+}
+
+/* line 117, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-wave-blue {
+  background: url("/img/patterns/wavy-bg.png") repeat;
+}
+
+/* line 121, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-shop-promo {
+  background: url("/img/patterns/shop-promo-bg.jpg") repeat;
+}
+
+/* line 125, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-shop-promo-orange {
+  background: url("/img/patterns/pattern-hash-orange-pink.gif") repeat;
+}
+
 @font-face {
   font-family: 'BrandonText-BoldItalic';
   src: url("../fonts/brandon/2A825C_0_0.eot");
@@ -1281,49 +1379,231 @@ sup {
   background-position: -4px -284px;
 }
 
-/* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
-.row {
-  max-width: 70rem;
-}
-
-/* line 8, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
-.main-wrap {
-  padding-top: 3em;
-}
-
-/* line 12, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
-.side-menu {
-  background: #b7c4d2;
+/* line 3, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card {
+  margin-bottom: 1em;
+  display: block;
+  width: 100%;
+  height: 9em;
+  position: relative;
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
   -ms-border-radius: 0.3em;
   -o-border-radius: 0.3em;
   border-radius: 0.3em;
-  margin: 0;
+  -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25);
 }
-/* line 17, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
-.side-menu li {
-  list-style: none;
+@media only screen and (min-width: 48em) {
+  /* line 3, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+  .card {
+    margin-bottom: 0;
+  }
 }
-/* line 20, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
-.side-menu li:first-of-type a {
-  padding-top: 1em;
-  -webkit-border-radius: 0.3em 0.3em 0 0;
-  -moz-border-radius: 0.3em 0.3em 0 0;
-  -ms-border-radius: 0.3em 0.3em 0 0;
-  -o-border-radius: 0.3em 0.3em 0 0;
-  border-radius: 0.3em 0.3em 0 0;
-}
-/* line 25, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
-.side-menu li:last-of-type a {
-  padding-bottom: 1em;
+/* line 16, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f8f4eb;
+  padding: .5em;
   -webkit-border-radius: 0 0 0.3em 0.3em;
   -moz-border-radius: 0 0 0.3em 0.3em;
   -ms-border-radius: 0 0 0.3em 0.3em;
   -o-border-radius: 0 0 0.3em 0.3em;
   border-radius: 0 0 0.3em 0.3em;
 }
-/* line 31, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 26, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card p {
+  margin: 0;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+/* line 32, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card span {
+  display: block;
+  font-size: 12px;
+  font-size: 0.75rem;
+  opacity: .5;
+  text-transform: uppercase;
+}
+
+/* line 40, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.color-row {
+  margin-bottom: 2em !important;
+}
+
+/* line 44, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.color-row + p {
+  margin-top: 2em;
+}
+
+/* line 48, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-white {
+  background: white;
+  -webkit-box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.25), 0 2px 0 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.25), 0 2px 0 0 rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.25), 0 2px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 53, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-pink {
+  background: #e73e5d;
+}
+
+/* line 57, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-midnight {
+  background: #1d1d24;
+}
+
+/* line 61, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-zumba-yellow {
+  background: #dae251;
+}
+
+/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-extra-light-gray {
+  background: #eff0f6;
+}
+
+/* line 69, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-light-gray {
+  background: #dadae2;
+}
+
+/* line 73, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-mid-gray {
+  background: #95959a;
+}
+
+/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-darkness-gray {
+  background: #2c2d37;
+}
+
+/* line 81, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-slate {
+  background: #606b76;
+}
+
+/* line 85, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-warm-gray {
+  background: #353541;
+}
+
+/* line 89, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-red {
+  background: #d0000d;
+}
+
+/* line 93, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-orange {
+  background: #fa962c;
+}
+
+/* line 97, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-black {
+  background: #222222;
+}
+
+/* line 101, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-purple {
+  background: #6c207e;
+}
+
+/* line 105, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-blue {
+  background: #26c1e2;
+}
+
+/* line 109, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-mid-blue {
+  background: #018ca9;
+}
+
+/* line 113, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-zumba-2 {
+  background: #959ca1;
+}
+
+/* line 117, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-aqua {
+  background: #00a0af;
+}
+
+/* line 121, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-gold {
+  background: #f8981d;
+}
+
+/* line 129, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-toning {
+  background: #732b85;
+}
+
+/* line 133, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-sentao {
+  background: #9c0059;
+}
+
+/* line 137, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-zumbini {
+  background: #e50278;
+}
+
+/* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  color: #333;
+}
+
+/* line 10, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.row {
+  max-width: 70rem;
+}
+
+/* line 14, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.main-wrap {
+  padding-top: 3em;
+}
+@media only screen and (min-width: 48em) {
+  /* line 14, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+  .main-wrap {
+    margin: 0 0 0 19em;
+  }
+}
+
+/* line 22, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu-wrap {
+  float: left;
+  width: 17em;
+  height: 100%;
+  position: absolute;
+}
+
+/* line 29, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu {
+  background: #c3cad1;
+  margin: 0;
+  height: 100%;
+}
+/* line 35, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu li {
+  list-style: none;
+}
+/* line 38, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu li:first-of-type a {
+  padding-top: 1em;
+}
+/* line 43, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu li:last-of-type a {
+  padding-bottom: 1em;
+}
+/* line 49, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu a {
   width: 100%;
   padding: .5em 1em .5em 2em;
@@ -1334,7 +1614,7 @@ sup {
   -o-transition: all 150ms;
   transition: all 150ms;
 }
-/* line 38, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 56, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu a:hover {
   color: #fff;
   background: #4d5a66;
@@ -1344,39 +1624,78 @@ sup {
 .header-bar {
   height: 6em;
   background: #303840;
+  padding: 1.75em 0 0 1.75em;
 }
-/* line 8, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+/* line 9, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
 .header-bar .row {
   padding: 1.67em 0.9375rem 0 0.9375rem;
 }
-/* line 12, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+/* line 13, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
 .header-bar h1 {
-  float: right;
+  float: none;
   font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 20px;
   font-size: 1.25rem;
-  margin-bottom: 0;
+  margin: 0 0 0 3em;
   line-height: 1.1;
   letter-spacing: -.025em;
   display: inline-block;
   margin-top: .5em;
-  color: #b7c4d2;
+  color: #c3cad1;
   text-transform: none;
 }
 
-/* line 26, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+/* line 27, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
 .burger {
   position: absolute;
   left: 2em;
   top: 1.5em;
 }
 
-/* line 32, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+/* line 33, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
 .logo {
   width: 230px;
   height: 40px;
   text-indent: -9999px;
   display: inline-block;
+  float: left;
   background: url("/img/zumba-tech-logo.svg") 0 0 no-repeat;
+  background-size: cover;
+}
+
+/* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_footer.scss */
+footer {
+  background: #4d5a66;
+  margin-top: 3em;
+  padding: 1em 2em;
+  position: relative;
+}
+/* line 10, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_footer.scss */
+footer svg {
+  fill: white;
+  width: 9em;
+  opacity: .5;
+}
+/* line 16, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_footer.scss */
+footer .copy {
+  float: right;
+  text-align: right;
+  font-size: 12px;
+  font-size: 0.75rem;
+  color: white;
+  opacity: .5;
+  position: relative;
+  top: 1.5em;
+}
+
+/* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_overwrites.scss */
+.spacing-overwrite, sub-sub-head.spacing-overwrite, sub-head.spacing-overwrite {
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+/* line 9, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_overwrites.scss */
+pre[class*="language-"] {
+  margin-bottom: 1em;
 }

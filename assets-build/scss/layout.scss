@@ -1,3 +1,4 @@
+@import "settings";
 
 // compass
 @import "compass";
@@ -9,6 +10,11 @@
 @import "plate/typography";
 @import "plate/icons";
 
+// toppings
+@import "toppings/cards";
+
 // layout
 @import "layout/frame";
 @import "layout/header";
+@import "layout/footer";
+@import "layout/overwrites";

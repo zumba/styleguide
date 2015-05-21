@@ -1,0 +1,141 @@
+// cards
+
+.card {
+	margin-bottom: 1em;
+	display: block;
+	width: 100%;
+	height: 9em;
+	position: relative;
+	@include border-radius(.3em);
+	@include box-shadow(0 2px 0 0 rgba(0, 0, 0, .25));
+
+	@media #{$medium-up} {
+		margin-bottom: 0;
+	}
+
+	section {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: $tan;
+		padding: .5em;
+		@include border-radius(0 0 .3em .3em);
+	}
+
+	p {
+		margin: 0;
+		@include font-size(14);
+		font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+	}
+
+	span {
+		display: block;
+		@include font-size(12);
+		opacity: .5;
+		text-transform: uppercase;
+	}
+}
+
+.color-row {
+	margin-bottom: 2em !important;
+}
+
+.color-row + p {
+	margin-top: 2em;
+}
+
+.c-white {
+	background: $white;
+	@include box-shadow(inset 0 0 1px 0 rgba(0, 0, 0, .25), 0 2px 0 0 rgba(0, 0, 0, .25));
+}
+
+.c-pink {
+	background: $pink;
+}
+
+.c-midnight {
+	background: $midnight;
+}
+
+.c-zumba-yellow {
+	background: $zumba-yellow;
+}
+
+.c-extra-light-gray {
+	background: $extra-light-gray;
+}
+
+.c-light-gray {
+	background: $light-gray;	
+}
+
+.c-mid-gray {
+	background: $mid-gray;
+}
+
+.c-darkness-gray {
+	background: $darkness-gray;
+}
+
+.c-slate {
+	background: $slate;
+}
+
+.c-warm-gray {
+	background: $warm-gray;
+}
+
+.c-red {
+	background: $red;
+}
+
+.c-orange {
+	background: $orange;
+}
+
+.c-black {
+	background: $black;
+}
+
+.c-purple {
+	background: $purple;
+}
+
+.c-blue {
+	background: $blue;
+}
+
+.c-mid-blue {
+	background: $mid-blue;
+}
+
+.c-z-zumba-2 {
+	background: $z-zumba-2;
+}
+
+.c-z-aqua {
+	background: $z-aqua;
+}
+
+.c-z-gold {
+	background: $z-gold;
+}
+
+.c-z-gold-toning {
+	@extend %z-gold-toning;
+}
+
+.c-z-toning {
+	background: $z-toning;
+}
+
+.c-z-sentao {
+	background: $z-sentao;
+}
+
+.c-z-zumbini {
+	background: $z-zumbini;
+}
+
+

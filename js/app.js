@@ -29,6 +29,41 @@ ZSG.config(function($routeProvider) {
             templateUrl: 'views/contents/code.html', 
             controller: 'ContentController'
         })
+
+    .when(
+        '/contents/grid', 
+        {
+            templateUrl: 'views/contents/grid.html', 
+            controller: 'ContentController'
+        })
+
+    .when(
+        '/contents/breakpoints', 
+        {
+            templateUrl: 'views/contents/breakpoints.html', 
+            controller: 'ContentController'
+        })
+
+    .when(
+        '/contents/colors', 
+        {
+            templateUrl: 'views/contents/colors.html', 
+            controller: 'ContentController'
+        })
+
+    .when(
+        '/contents/patterns', 
+        {
+            templateUrl: 'views/contents/patterns.html', 
+            controller: 'ContentController'
+        })
+
+    .when(
+        '/contents/typography', 
+        {
+            templateUrl: 'views/contents/typography.html', 
+            controller: 'ContentController'
+        })
     
     .otherwise('/')
 });

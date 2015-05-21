@@ -447,26 +447,26 @@ meta.foundation-mq-small {
 
 /* line 333, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em;
+  font-family: "/only screen and (min-width:48em)/";
+  width: 48em;
 }
 
 /* line 338, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em;
+  font-family: "/only screen and (min-width:64em)/";
+  width: 64em;
 }
 
 /* line 343, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
-  font-family: "/only screen and (min-width:90.063em)/";
-  width: 90.063em;
+  font-family: "/only screen and (min-width:68em)/";
+  width: 68em;
 }
 
 /* line 348, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xxlarge {
-  font-family: "/only screen and (min-width:120.063em)/";
-  width: 120.063em;
+  font-family: "/only screen and (min-width:74em)/";
+  width: 74em;
 }
 
 /* line 353, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_global.scss */
@@ -993,7 +993,7 @@ select {
     float: right;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_grid.scss */
   .medium-push-0 {
     position: relative;
@@ -1500,7 +1500,7 @@ select {
     left: auto;
   }
 }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 64em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_grid.scss */
   .large-push-0 {
     position: relative;
@@ -2245,7 +2245,7 @@ select {
     clear: both;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 61, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-1 > li {
     width: 100%;
@@ -2414,7 +2414,7 @@ select {
     clear: both;
   }
 }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 64em) {
   /* line 61, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-1 > li {
     width: 100%;
@@ -2791,7 +2791,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   background-color: #f04124;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 216, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block;
@@ -3357,13 +3357,13 @@ dialog, .reveal-modal {
   border: solid 1px #666666;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 47.9375em) {
   /* line 164, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     min-height: 100vh;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 164, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     left: 50%;
@@ -3383,14 +3383,14 @@ dialog > :first-child, .reveal-modal > :first-child {
 dialog > :last-child, .reveal-modal > :last-child {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 164, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     margin-left: -40%;
     width: 80%;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 164, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     top: 6.25rem;
@@ -3414,7 +3414,7 @@ dialog[open] {
   visibility: visible;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 184, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     padding: 1.875rem;
@@ -3440,35 +3440,35 @@ dialog[open] {
     margin-left: 0 !important;
   }
 }
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) and (min-width: 48em) {
   /* line 192, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.tiny, .reveal-modal.tiny {
     margin-left: -15%;
     width: 30%;
   }
 }
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) and (min-width: 48em) {
   /* line 193, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.small, .reveal-modal.small {
     margin-left: -20%;
     width: 40%;
   }
 }
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) and (min-width: 48em) {
   /* line 194, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.medium, .reveal-modal.medium {
     margin-left: -30%;
     width: 60%;
   }
 }
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) and (min-width: 48em) {
   /* line 195, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.large, .reveal-modal.large {
     margin-left: -35%;
     width: 70%;
   }
 }
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) and (min-width: 48em) {
   /* line 196, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.xlarge, .reveal-modal.xlarge {
     margin-left: -47.5%;
@@ -3476,7 +3476,7 @@ dialog[open] {
   }
 }
 
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) and (min-width: 48em) {
   /* line 200, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.full, .reveal-modal.full {
     margin-left: -50vw;
@@ -3600,8 +3600,8 @@ table tr td {
 
 /* line 103, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em;
+  font-family: "/only screen and (min-width:48em)/";
+  width: 48em;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -4049,7 +4049,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 435, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: #333333;
@@ -4299,7 +4299,7 @@ meta.foundation-mq-topbar {
   text-align: justify !important;
 }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 47.9375em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_type.scss */
   .small-only-text-left {
     text-align: left !important;
@@ -4341,7 +4341,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-only-text-left {
     text-align: left !important;
@@ -4362,7 +4362,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-text-left {
     text-align: left !important;
@@ -4383,7 +4383,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+@media only screen and (min-width: 64em) and (max-width: 67.9375em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_type.scss */
   .large-only-text-left {
     text-align: left !important;
@@ -4404,7 +4404,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 64em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_type.scss */
   .large-text-left {
     text-align: left !important;
@@ -4425,7 +4425,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+@media only screen and (min-width: 68em) and (max-width: 73.9375em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_type.scss */
   .xlarge-only-text-left {
     text-align: left !important;
@@ -4446,7 +4446,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 90.063em) {
+@media only screen and (min-width: 68em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_type.scss */
   .xlarge-text-left {
     text-align: left !important;
@@ -4467,7 +4467,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
+@media only screen and (min-width: 74em) and (max-width: 78.813em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_type.scss */
   .xxlarge-only-text-left {
     text-align: left !important;
@@ -4488,7 +4488,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 120.063em) {
+@media only screen and (min-width: 74em) {
   /* line 157, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_type.scss */
   .xxlarge-text-left {
     text-align: left !important;
@@ -4827,7 +4827,7 @@ blockquote p {
   padding: 0 0.0625rem;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 443, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
@@ -5042,7 +5042,7 @@ blockquote p {
   height: 2.8125rem;
   top: 0;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 279, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .tab-bar-section {
     text-align: left;
@@ -5200,7 +5200,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 259, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .move-right .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -5232,7 +5232,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 259, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .move-left .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -5265,7 +5265,7 @@ ul.off-canvas-list li a:hover {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 1002;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 259, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .offcanvas-overlap .exit-offcanvas-menu:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -5345,7 +5345,7 @@ ul.off-canvas-list li a:hover {
   }
 }
 /* medium displays */
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 48em) {
   /* line 244, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
     display: inherit !important;
@@ -5400,7 +5400,7 @@ ul.off-canvas-list li a:hover {
   }
 }
 /* large displays */
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 64em) {
   /* line 244, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
     display: inherit !important;
@@ -5455,7 +5455,7 @@ ul.off-canvas-list li a:hover {
   }
 }
 /* xlarge displays */
-@media only screen and (min-width: 90.063em) {
+@media only screen and (min-width: 68em) {
   /* line 244, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .hide-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
     display: inherit !important;
@@ -5510,7 +5510,7 @@ ul.off-canvas-list li a:hover {
   }
 }
 /* xxlarge displays */
-@media only screen and (min-width: 120.063em) {
+@media only screen and (min-width: 74em) {
   /* line 244, /Users/kaueribeiro/zumba/styleguide/bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .hide-for-large, .hide-for-large-down, .hide-for-xlarge-only, .show-for-xlarge-up, .show-for-xxlarge-only, .show-for-xxlarge-up {
     display: inherit !important;
