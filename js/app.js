@@ -6,6 +6,9 @@ var ZSG = angular.module('ZSG', ['ngRoute']);
 ZSG.controller('ContentController', function($scope, $location){
     /* Sets the sidebar link to 'active' class when on the current page */
     $scope.setActive = function(path) {
+        console.log($location.path().substr(0, path.length));
+        console.log(path);
+        alert("hello")
          if ($location.path().substr(0, path.length) == path) {
             return "active";
         } else {

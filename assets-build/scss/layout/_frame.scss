@@ -16,6 +16,7 @@ body {
 
 	@media #{$medium-up} {
 		margin: 0 0 0 19em;
+		min-height: 575px;
 	}
 }
 
@@ -34,6 +35,7 @@ body {
 
 	li {
 		list-style: none;
+		position: relative;
 
 		&:first-of-type a {
 			padding-top: 1em;
@@ -43,6 +45,24 @@ body {
 		&:last-of-type a {
 			padding-bottom: 1em;
 			//@include border-radius(0 0 .3em .3em);
+		}
+
+		&.active {
+			box-shadow: inset 5px 0 0 $sg-mid-gray;
+
+			&:after {
+				content: '';
+				position: absolute;
+			    width: 20px;
+			    height: 20px;
+			    right: -.8em;
+			    top: .7em;
+			    background: white;
+			    -webkit-transform: rotate(45deg);
+			    transform: rotate(45deg);
+			    border-radius: 4px;
+			}
+
 		}
 	}
 
