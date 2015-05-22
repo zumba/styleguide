@@ -1,5 +1,20 @@
+@import "settings";
+
+// compass
+@import "compass";
+
+// plate
+@import "plate/variables";
+@import "plate/fonts";
+@import "plate/mixins";
+@import "plate/typography";
+@import "plate/icons";
+
+// toppings
+@import "toppings/cards";
 
 // layout
-
 @import "layout/frame";
 @import "layout/header";
+@import "layout/footer";
+@import "layout/overwrites";

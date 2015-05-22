@@ -1,0 +1,57 @@
+// Fonts
+
+@mixin b-thin {
+	font-family: "BrandonText-Thin", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+@mixin b-light {
+	font-family: "BrandonText-Light", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+@mixin b-reg {
+	font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+@mixin b-med {
+	font-family: "BrandonText-Medium", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+@mixin b-bold {
+	font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+@mixin b-black {
+	font-family: "BrandonText-Black", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+@mixin minion {
+	font-family: "Minion Pro", serif;
+}
+
+@mixin minion-it {
+	font-family: "Minion Pro", serif;
+	font-style: italic;
+}
+
+// Rem/pixel mixin
+
+$doc-font-size: 16;
+
+@mixin font-size($size) {
+	font-size: 0px + $size;
+	font-size: 0rem + $size / $doc-font-size;
+}
+
+// Calculations
+
+@mixin calc($property, $expression) {
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+// example @include calc(width, "25% - 1em");

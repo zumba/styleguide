@@ -6,6 +6,9 @@ var ZSG = angular.module('ZSG', ['ngRoute']);
 ZSG.controller('ContentController', function($scope, $location){
     /* Sets the sidebar link to 'active' class when on the current page */
     $scope.setActive = function(path) {
+        console.log($location.path().substr(0, path.length));
+        console.log(path);
+        alert("hello")
          if ($location.path().substr(0, path.length) == path) {
             return "active";
         } else {
@@ -19,16 +22,51 @@ ZSG.config(function($routeProvider) {
     $routeProvider
     .when('/', 
     {
-        templateUrl: 'views/home.html',
+        templateUrl: 'views/intro.html',
         controller: 'ContentController'
     })
 
     .when(
-    	'/design', 
-    	{
-    		templateUrl: 'views/design/index.html', 
-    		controller: 'ContentController'
-    	})
+        '/contents/code', 
+        {
+            templateUrl: 'views/contents/code.html', 
+            controller: 'ContentController'
+        })
+
+    .when(
+        '/contents/grid', 
+        {
+            templateUrl: 'views/contents/grid.html', 
+            controller: 'ContentController'
+        })
+
+    .when(
+        '/contents/breakpoints', 
+        {
+            templateUrl: 'views/contents/breakpoints.html', 
+            controller: 'ContentController'
+        })
+
+    .when(
+        '/contents/colors', 
+        {
+            templateUrl: 'views/contents/colors.html', 
+            controller: 'ContentController'
+        })
+
+    .when(
+        '/contents/patterns', 
+        {
+            templateUrl: 'views/contents/patterns.html', 
+            controller: 'ContentController'
+        })
+
+    .when(
+        '/contents/typography', 
+        {
+            templateUrl: 'views/contents/typography.html', 
+            controller: 'ContentController'
+        })
     
     .otherwise('/')
 });

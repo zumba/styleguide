@@ -1,5 +1,1720 @@
+@import url("//hello.myfonts.net/count/2a825c");
+/* line 39, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.c-z-gold-toning {
+  background: #f8981d;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZjg5ODFkIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzczMmI4NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(-45deg, #f8981d 0%, #732b85 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #f8981d), color-stop(100%, #732b85));
+  background: -webkit-linear-gradient(-45deg, #f8981d 0%, #732b85 100%);
+  background: -o-linear-gradient(-45deg, #f8981d 0%, #732b85 100%);
+  background: -ms-linear-gradient(-45deg, #f8981d 0%, #732b85 100%);
+  background: linear-gradient(135deg, #f8981d 0%, #732b85 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8981d', endColorstr='#732b85',GradientType=1 );
+}
+
+/* line 61, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba {
+  background: url("/img/patterns/pattern-yellow.jpg") repeat;
+}
+
+/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-aqua-zumba {
+  background: url("/img/patterns/pattern-aqua.jpg") repeat;
+}
+
+/* line 69, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-in-the-circuit {
+  background: url("/img/patterns/pattern-gray.jpg") repeat;
+}
+
+/* line 73, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-gold {
+  background: url("/img/patterns/pattern-gold.jpg") repeat;
+}
+
+/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-gold-toning {
+  background: url("/img/patterns/pattern-purple.jpg") repeat;
+}
+
+/* line 81, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-kids {
+  background: url("/img/patterns/pattern-yellow.jpg") repeat;
+}
+
+/* line 85, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-kids-jr {
+  background: url("/img/patterns/pattern-yellow.jpg") repeat;
+}
+
+/* line 89, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-sentao {
+  background: url("/img/patterns/pattern-sentao.jpg") repeat;
+}
+
+/* line 93, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-step {
+  background: url("/img/patterns/pattern-yellow.jpg") repeat;
+}
+
+/* line 97, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumba-toning {
+  background: url("/img/patterns/pattern-purple.jpg") repeat;
+}
+
+/* line 101, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-zumbini {
+  background: url("/img/patterns/pattern-pink.jpg") repeat;
+}
+
+/* line 105, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-dark {
+  background: url("/img/patterns/dark-pattern.png") repeat;
+}
+
+/* line 109, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-wave-black {
+  background: url("/img/patterns/pattern-wavy-black.gif") repeat;
+}
+
+/* line 113, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-wave-pink {
+  background: url("/img/patterns/pink-wavy-bg.png") repeat;
+}
+
+/* line 117, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-wave-blue {
+  background: url("/img/patterns/wavy-bg.png") repeat;
+}
+
+/* line 121, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-shop-promo {
+  background: url("/img/patterns/shop-promo-bg.jpg") repeat;
+}
+
+/* line 125, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+.zp-shop-promo-orange {
+  background: url("/img/patterns/pattern-hash-orange-pink.gif") repeat;
+}
+
+@font-face {
+  font-family: 'BrandonText-BoldItalic';
+  src: url("../fonts/brandon/2A825C_0_0.eot");
+  src: url("../fonts/brandon/2A825C_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_0_0.woff") format("woff"), url("../fonts/brandon/2A825C_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-Bold';
+  src: url("../fonts/brandon/2A825C_1_0.eot");
+  src: url("../fonts/brandon/2A825C_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_1_0.woff") format("woff"), url("../fonts/brandon/2A825C_1_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-BlackItalic';
+  src: url("../fonts/brandon/2A825C_2_0.eot");
+  src: url("../fonts/brandon/2A825C_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_2_0.woff") format("woff"), url("../fonts/brandon/2A825C_2_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-Black';
+  src: url("../fonts/brandon/2A825C_3_0.eot");
+  src: url("../fonts/brandon/2A825C_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_3_0.woff") format("woff"), url("../fonts/brandon/2A825C_3_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-LightItalic';
+  src: url("../fonts/brandon/2A825C_4_0.eot");
+  src: url("../fonts/brandon/2A825C_4_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_4_0.woff") format("woff"), url("../fonts/brandon/2A825C_4_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-Light';
+  src: url("../fonts/brandon/2A825C_5_0.eot");
+  src: url("../fonts/brandon/2A825C_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_5_0.woff") format("woff"), url("../fonts/brandon/2A825C_5_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-RegularItalic';
+  src: url("../fonts/brandon/2A825C_6_0.eot");
+  src: url("../fonts/brandon/2A825C_6_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_6_0.woff") format("woff"), url("../fonts/brandon/2A825C_6_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-Regular';
+  src: url("../fonts/brandon/2A825C_7_0.eot");
+  src: url("../fonts/brandon/2A825C_7_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_7_0.woff") format("woff"), url("../fonts/brandon/2A825C_7_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-Medium';
+  src: url("../fonts/brandon/2A825C_8_0.eot");
+  src: url("../fonts/brandon/2A825C_8_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_8_0.woff") format("woff"), url("../fonts/brandon/2A825C_8_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-ThinItalic';
+  src: url("../fonts/brandon/2A825C_9_0.eot");
+  src: url("../fonts/brandon/2A825C_9_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_9_0.woff") format("woff"), url("../fonts/brandon/2A825C_9_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-Thin';
+  src: url("../fonts/brandon/2A825C_A_0.eot");
+  src: url("../fonts/brandon/2A825C_A_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_A_0.woff") format("woff"), url("../fonts/brandon/2A825C_A_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'BrandonText-MediumItalic';
+  src: url("../fonts/brandon/2A825C_B_0.eot");
+  src: url("../fonts/brandon/2A825C_B_0.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon/2A825C_B_0.woff") format("woff"), url("../fonts/brandon/2A825C_B_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'VideoJS';
+  src: url("/bower_components/video.js/dist/video-js/font/vjs.eot");
+  src: url("/bower_components/video.js/dist/video-js/font/vjs.eot?#iefix") format("embedded-opentype"), url("/bower_components/video.js/dist/video-js/font/vjs.woff") format("woff"), url("/bower_components/video.js/dist/video-js/font/vjs.ttf") format("truetype"), url("/bower_components/video.js/dist/video-js/font/vjs.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: si;
+  src: url(../fonts/social/socicon.eot);
+  src: url(../fonts/social/socicon.eot?#iefix) format("embedded-opentype"), url(../fonts/social/socicon.woff2) format("woff2"), url(../fonts/social/socicon.woff) format("woff"), url(../fonts/social/socicon.ttf) format("truetype"), url(../fonts/social/socicon.svg#icomoonregular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: si;
+    src: url(/fonts/social/socicon.svg) format(svg);
+}
+}
+/* line 1, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+/* line 6, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+.section-title {
+  margin: 0 0 .25em;
+  padding: 0;
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1em;
+  font-size: 30px;
+  font-size: 1.875rem;
+}
+/* line 20, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+.section-title sup {
+  top: -10px;
+  font-size: 55%;
+}
+
+/* line 26, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+a {
+  color: #e73e5d;
+  font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+}
+/* line 31, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+a:hover, a:focus {
+  color: #353541;
+}
+
+/* line 37, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+h1 {
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 48px;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+/* line 43, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+h2 {
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+}
+
+/* line 49, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+h3 {
+  font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 48px;
+  font-size: 3rem;
+}
+
+/* line 54, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+h3 {
+  font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 48px;
+  font-size: 3rem;
+  letter-spacing: -.025em;
+}
+
+/* line 60, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+h4 {
+  font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  font-size: 2.25rem;
+}
+
+/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+h5 {
+  font-family: "Minion Pro", serif;
+  font-style: italic;
+  font-size: 42px;
+  font-size: 2.625rem;
+}
+
+/* line 70, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+h6 {
+  font-family: "Minion Pro", serif;
+  font-style: italic;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 1.15em;
+  margin-bottom: .5em;
+}
+
+/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+.sub-head {
+  font-family: "Minion Pro", serif;
+  font-style: italic;
+  font-size: 28px;
+  font-size: 1.75rem;
+}
+
+/* line 82, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+.sub-sub-head {
+  font-family: "Minion Pro", serif;
+  font-style: italic;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1em;
+}
+
+/* line 88, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+.b1 {
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  line-height: 1.1;
+  letter-spacing: -.025em;
+}
+
+/* line 96, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+.b2 {
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1rem;
+  margin-bottom: .5em;
+  line-height: 1em;
+}
+
+/* line 103, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+.b3 {
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+/* line 108, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+.t1 {
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
+/* line 114, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+.lighten {
+  color: #a7a7a7;
+}
+
+/* line 118, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+p {
+  font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+}
+/* line 123, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+p strong {
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+/* line 129, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+sup {
+  padding-right: 0.2em;
+  line-height: 0;
+  position: relative;
+  font-size: 50%;
+}
+
+/* line 36, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-black-svg,
+.icon-arrow-blue-svg,
+.icon-arrow-dark-up-svg,
+.icon-arrow-lt-blue-svg,
+.icon-arrow-pink-svg,
+.icon-arrow-white-left-svg,
+.icon-arrow-white-right-svg,
+.icon-boombox-svg,
+.icon-cartcount-no-bacon-svg,
+.icon-cartcount-svg,
+.icon-cartcount-2-svg,
+.icon-check-svg,
+.icon-chevron-dark-svg,
+.icon-chevron-pink-svg,
+.icon-chevron-white-svg,
+.icon-chevron-svg,
+.icon-close-svg,
+.icon-cog-svg,
+.icon-dufflebag-small-svg,
+.icon-dufflebag-med-svg,
+.icon-dufflebag-svg,
+.icon-green-check-svg,
+.icon-hamburger-svg,
+.icon-key-svg,
+.icon-lock-svg,
+.icon-mail-svg,
+.icon-oops-svg,
+.icon-paypal-svg,
+.icon-play-svg,
+.icon-print-svg,
+.icon-search-black-svg,
+.icon-search-svg,
+.icon-shades-svg,
+.icon-speech-help-svg,
+.icon-truck-svg,
+.icon-msg-sent-svg {
+  background: url("../img/icons/icon-sprite.svg") no-repeat;
+  background-size: 923px 86px;
+}
+
+/* line 53, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-avatar-svg,
+.icon-zin-connect-svg,
+.icon-zin-discs-svg,
+.icon-zin-earn-svg,
+.icon-zin-edit-svg,
+.icon-zin-edit-active-svg,
+.icon-zin-expand-graph-svg,
+.icon-zin-learn-svg,
+.icon-zin-promote-svg,
+.icon-zin-steps-svg,
+.icon-zin-video-svg,
+.icon-zin-video-screen-svg {
+  background: url("../img/icons/zin/zin-sprites.svg") no-repeat;
+  background-size: 99px 279px;
+}
+
+/* line 58, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-avatar-svg {
+  background-position: -51px -196px;
+  width: 35px;
+  height: 39px;
+}
+
+/* line 63, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-connect-svg {
+  background-position: 0 -246px;
+  width: 34px;
+  height: 28px;
+}
+
+/* line 68, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-discs-svg {
+  background-position: -58px -67px;
+  width: 64px;
+  height: 51px;
+  background-size: 120px;
+}
+
+/* line 74, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-earn-svg {
+  background-position: -47px -246px;
+  width: 34px;
+  height: 31px;
+}
+
+/* line 79, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-edit-svg {
+  background-position: 0 -100px;
+  width: 19px;
+  height: 25px;
+}
+
+/* line 84, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-edit-active-svg {
+  background-position: -20px -100px;
+  width: 19px;
+  height: 25px;
+}
+
+/* line 89, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-expand-graph-svg {
+  background-position: 0 -138px;
+  width: 40px;
+  height: 53px;
+}
+
+/* line 94, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-learn-svg {
+  background-position: 0 -197px;
+  width: 35px;
+  height: 36px;
+}
+
+/* line 99, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-promote-svg {
+  background-position: -43px -138px;
+  width: 51px;
+  height: 46px;
+}
+
+/* line 104, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-steps-svg {
+  background-position: 0 0;
+  width: 33px;
+  height: 44px;
+}
+
+/* line 109, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-video-svg {
+  background-position: -41px 0;
+  width: 60px;
+  height: 51px;
+}
+
+/* line 114, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-video-screen-svg {
+  background-position: 0px -66px;
+  width: 59px;
+  height: 51px;
+  background-size: 120px;
+}
+
+/* line 133, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-avatar-png,
+.icon-zin-connect-png,
+.icon-zin-discs-png,
+.icon-zin-earn-png,
+.icon-zin-edit-png,
+.icon-zin-edit-active-png,
+.icon-zin-expand-graph-png,
+.icon-zin-learn-png,
+.icon-zin-promote-png,
+.icon-zin-steps-png,
+.icon-zin-video-png,
+.icon-zin-video-screen-png {
+  background: url("../img/icons/zin-sprites.png") no-repeat;
+  background-size: 99px 279px;
+}
+
+/* line 138, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-avatar-png {
+  background-position: -51px -196px;
+  width: 35px;
+  height: 39px;
+}
+
+/* line 143, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-connect-png {
+  background-position: 0 -246px;
+  width: 34px;
+  height: 28px;
+}
+
+/* line 148, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-discs-png {
+  background-position: -59px -67px;
+  width: 64px;
+  height: 51px;
+  background-size: 120px;
+}
+
+/* line 154, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-earn-png {
+  background-position: -47px -246px;
+  width: 34px;
+  height: 31px;
+}
+
+/* line 159, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-edit-png {
+  background-position: 0 -100px;
+  width: 19px;
+  height: 25px;
+}
+
+/* line 164, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-edit-active-png {
+  background-position: -20px -100px;
+  width: 19px;
+  height: 25px;
+}
+
+/* line 169, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-expand-graph-png {
+  background-position: 0 -138px;
+  width: 40px;
+  height: 53px;
+}
+
+/* line 174, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-learn-png {
+  background-position: 0 -197px;
+  width: 35px;
+  height: 36px;
+}
+
+/* line 179, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-promote-png {
+  background-position: -43px -138px;
+  width: 51px;
+  height: 46px;
+}
+
+/* line 184, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-steps-png {
+  background-position: 0 0;
+  width: 33px;
+  height: 44px;
+}
+
+/* line 189, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-video-png {
+  background-position: -41px 0;
+  width: 60px;
+  height: 51px;
+}
+
+/* line 194, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-zin-video-screen-png {
+  background-position: 0px -66px;
+  width: 59px;
+  height: 51px;
+  background-size: 120px;
+}
+
+/* line 203, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-black-svg {
+  background-position: 0 0;
+  width: 7px;
+  height: 11px;
+}
+
+/* line 209, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-blue-svg {
+  background-position: 0 -18px;
+  width: 36px;
+  height: 21px;
+}
+
+/* line 215, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-dark-up-svg {
+  background-position: -54px -18px;
+  width: 8px;
+  height: 15px;
+}
+
+/* line 221, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-lt-blue-svg {
+  background-position: -90px 0;
+  width: 10px;
+  height: 15px;
+}
+
+/* line 227, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-pink-svg {
+  background-position: -54px 0;
+  width: 7px;
+  height: 11px;
+}
+
+/* line 233, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-white-left-svg {
+  background-position: -144px -72px;
+  width: 8px;
+  height: 13px;
+}
+
+/* line 239, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-white-right-svg {
+  background-position: -162px -72px;
+  width: 8px;
+  height: 13px;
+}
+
+/* line 245, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-boombox-svg {
+  background-position: -378px -1px;
+  width: 137px;
+  height: 53px;
+}
+
+/* line 251, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-check-svg {
+  background-position: -252px -42px;
+  width: 14px;
+  height: 13px;
+}
+
+/* line 257, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-chevron-dark-svg {
+  background-position: -18px -1px;
+  width: 11px;
+  height: 7px;
+}
+
+/* line 263, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-chevron-pink-svg {
+  background-position: -72px -1px;
+  width: 12px;
+  height: 8px;
+}
+
+/* line 269, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-chevron-white-svg {
+  background-position: -180px -76px;
+  width: 12px;
+  height: 8px;
+}
+
+/* line 275, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-chevron-svg {
+  background-position: -36px -1px;
+  width: 11px;
+  height: 7px;
+}
+
+/* line 281, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-close-svg {
+  background-position: -90px -70px;
+  width: 14px;
+  height: 15px;
+}
+
+/* line 287, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-cog-svg {
+  background-position: -36px -37px;
+  width: 19px;
+  height: 19px;
+}
+
+/* line 293, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-dufflebag-small-svg {
+  background-position: 0 -54px;
+  width: 23px;
+  height: 16px;
+}
+
+/* line 299, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-dufflebag-med-svg {
+  background-position: -252px -59px;
+  width: 36px;
+  height: 25px;
+}
+
+/* line 305, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-dufflebag-svg {
+  background-position: -36px -56px;
+  width: 43px;
+  height: 28px;
+}
+
+/* line 311, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-green-check-svg {
+  background-position: -834px -52px;
+  width: 24px;
+  height: 24px;
+}
+
+/* line 317, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-hamburger-svg {
+  background-position: -252px 0;
+  width: 35px;
+  height: 30px;
+}
+
+/* line 323, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-key-svg {
+  background-position: -306px -50px;
+  width: 74px;
+  height: 34px;
+}
+
+/* line 329, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-lock-svg {
+  background-position: -72px -37px;
+  width: 16px;
+  height: 19px;
+}
+
+/* line 335, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-mail-svg {
+  background-position: -306px 0;
+  width: 53px;
+  height: 36px;
+}
+
+/* line 341, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-oops-svg {
+  background-position: -522px -1px;
+  width: 84px;
+  height: 62px;
+}
+
+/* line 347, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-paypal-svg {
+  background-position: -413px -60px;
+  width: 70px;
+  height: 20px;
+}
+
+/* line 353, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-play-svg {
+  background-position: -738px 0;
+  width: 84px;
+  height: 84px;
+}
+
+/* line 359, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-print-svg {
+  background-position: -691px -58px;
+  width: 24px;
+  height: 23px;
+}
+
+/* line 365, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-search-black-svg {
+  background-position: -72px -19px;
+  width: 15px;
+  height: 15px;
+}
+
+/* line 371, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-search-svg {
+  background-position: -90px -19px;
+  width: 15px;
+  height: 15px;
+}
+
+/* line 377, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-shades-svg {
+  background-position: -630px -1px;
+  width: 94px;
+  height: 32px;
+}
+
+/* line 383, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-speech-help-svg {
+  background-position: -630px -49px;
+  width: 33px;
+  height: 35px;
+}
+
+/* line 389, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-truck-svg {
+  background-position: -831px -1px;
+  width: 92px;
+  height: 32px;
+}
+
+/* line 395, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-msg-sent-svg {
+  background: url("../img/icons/icon-msg-sent-dark.svg") no-repeat;
+  background-position: 0 0;
+  width: 51px;
+  height: 47px;
+}
+
+/* line 403, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-black-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: 0 0;
+  width: 7px;
+  height: 11px;
+  background-size: 922px 84px;
+}
+
+/* line 411, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-blue-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: 0 -18px;
+  width: 36px;
+  height: 21px;
+  background-size: 922px 84px;
+}
+
+/* line 419, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-dark-up-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -54px -18px;
+  width: 8px;
+  height: 15px;
+  background-size: 922px 84px;
+}
+
+/* line 427, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-lt-blue-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -90px 0;
+  width: 10px;
+  height: 15px;
+  background-size: 922px 84px;
+}
+
+/* line 435, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-pink-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -54px 0;
+  width: 7px;
+  height: 11px;
+  background-size: 922px 84px;
+}
+
+/* line 443, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-white-left-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -209px -72px;
+  width: 8px;
+  height: 13px;
+  background-size: 922px 84px;
+}
+
+/* line 451, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-arrow-white-right-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -234px -72px;
+  width: 8px;
+  height: 13px;
+  background-size: 922px 84px;
+}
+
+/* line 459, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-boombox-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -378px 0;
+  width: 137px;
+  height: 53px;
+  background-size: 922px 84px;
+}
+
+/* line 467, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-cartcount-no-bacon-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -108px 0;
+  width: 25px;
+  height: 20px;
+  background-size: 922px 84px;
+}
+
+/* line 475, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-cartcount-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -108px -36px;
+  width: 39px;
+  height: 31px;
+  background-size: 922px 84px;
+}
+
+/* line 483, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-cartcount-2-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -162px 0;
+  width: 78px;
+  height: 63px;
+  background-size: 922px 84px;
+}
+
+/* line 491, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-check-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background: -252px -42px;
+  width: 14px;
+  height: 12px;
+  background-size: 922px 84px;
+}
+
+/* line 499, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-chevron-dark-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -18px 0;
+  width: 11px;
+  height: 7px;
+  background-size: 922px 84px;
+}
+
+/* line 507, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-chevron-pink-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -72px 0;
+  width: 12px;
+  height: 8px;
+  background-size: 922px 84px;
+}
+
+/* line 515, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-chevron-white-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -180px -76px;
+  width: 12px;
+  height: 8px;
+  background-size: 922px 84px;
+}
+
+/* line 523, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-chevron-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -36px 0;
+  width: 11px;
+  height: 7px;
+  background-size: 922px 84px;
+}
+
+/* line 531, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-close-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -90px -70px;
+  width: 14px;
+  height: 14px;
+  background-size: 922px 84px;
+}
+
+/* line 539, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-cog-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -36px -36px;
+  width: 18px;
+  height: 18px;
+  background-size: 922px 84px;
+}
+
+/* line 547, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-dufflebag-small-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: 0 -54px;
+  width: 23px;
+  height: 15px;
+  background-size: 922px 84px;
+}
+
+/* line 555, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-dufflebag-med-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -252px -61px;
+  width: 36px;
+  height: 24px;
+  background-size: 922px 84px;
+}
+
+/* line 563, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-dufflebag-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -36px -56px;
+  width: 43px;
+  height: 28px;
+  background-size: 922px 84px;
+}
+
+/* line 571, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-green-check-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -834px -51px;
+  width: 24px;
+  height: 24px;
+  background-size: 922px 84px;
+}
+
+/* line 579, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-hamburger-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -252px 0;
+  width: 47px;
+  height: 38px;
+  background-size: 922px 84px;
+}
+
+/* line 587, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-key-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -306px -50px;
+  width: 74px;
+  height: 34px;
+  background-size: 922px 84px;
+}
+
+/* line 595, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-lock-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -72px -36px;
+  width: 16px;
+  height: 18px;
+}
+
+/* line 602, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-mail-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -306px 0;
+  width: 53px;
+  height: 36px;
+  background-size: 922px 84px;
+}
+
+/* line 610, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-oops-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -522px 0;
+  width: 84px;
+  height: 62px;
+  background-size: 922px 84px;
+}
+
+/* line 618, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-paypal-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -413px -59px;
+  width: 70px;
+  height: 20px;
+  background-size: 922px 84px;
+}
+
+/* line 626, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-play-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -738px 0;
+  width: 84px;
+  height: 84px;
+  background-size: 922px 84px;
+}
+
+/* line 634, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-print-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -690px -57px;
+  width: 24px;
+  height: 23px;
+  background-size: 922px 84px;
+}
+
+/* line 642, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-search-black-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -72px -19px;
+  width: 15px;
+  height: 15px;
+  background-size: 922px 84px;
+}
+
+/* line 650, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-search-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -90px -18px;
+  width: 15px;
+  height: 15px;
+  background-size: 922px 84px;
+}
+
+/* line 658, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-shades-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -630px 0;
+  width: 94px;
+  height: 32px;
+  background-size: 922px 84px;
+}
+
+/* line 666, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-speech-help-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -630px -51px;
+  width: 33px;
+  height: 33px;
+  background-size: 922px 84px;
+}
+
+/* line 674, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-truck-png {
+  background: url("../img/icons/icon-sprite.png") no-repeat;
+  background-position: -831px 0;
+  width: 92px;
+  height: 32px;
+  background-size: 922px 84px;
+}
+
+/* line 682, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-msg-sent-png {
+  background: url("../img/icons/icon-msg-sent-dark.png") no-repeat;
+  background-position: 0 0;
+  width: 51px;
+  height: 47px;
+  background-size: 51px 47px;
+}
+
+/* line 693, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.no-svg .icon-party {
+  background: url("../img/icons/classes-detail/class-detail.png") no-repeat;
+}
+
+/* line 697, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-party {
+  background: url("../img/icons/classes-detail/class-detail.svg") no-repeat;
+}
+/* line 700, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-party.direction {
+  background-position: 0 0;
+  background-size: 100%;
+  width: 1.5625em;
+  height: 1.25em;
+}
+/* line 707, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-party.person {
+  background-position: 0 -1.25em;
+  background-size: 100%;
+  width: 1.5625em;
+  height: 1.5625em;
+}
+/* line 714, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-party.time {
+  background-position: 0 -2.8125em;
+  background-size: 100%;
+  width: 1.5625em;
+  height: 1.5625em;
+}
+
+/* line 722, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-camera {
+  width: 9.375em;
+  height: 7.5em;
+  background: url("../img/icons/icon-camera.svg") no-repeat;
+}
+
+/* line 729, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.no-svg .icon-camera {
+  width: 9.375em;
+  height: 7.5em;
+  background: url("../img/icons/icon-camera.png") no-repeat;
+}
+
+/* line 740, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-browser-chrome,
+.icon-browser-firefox,
+.icon-browser-ie,
+.icon-browser-safari,
+.icon-browser-globe {
+  background: url("../img/icons/icon-sprite-browsers.png") no-repeat;
+  background-size: 165px 37px;
+}
+
+/* line 745, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-browser-chrome {
+  width: 30px;
+  height: 32px;
+  background-position: 0 -2px;
+}
+
+/* line 751, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-browser-firefox {
+  width: 34px;
+  height: 35px;
+  background-position: -32px -2px;
+}
+
+/* line 757, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-browser-ie {
+  width: 33px;
+  height: 32px;
+  background-position: -67px -2px;
+}
+
+/* line 763, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-browser-safari {
+  width: 32px;
+  height: 35px;
+  background-position: -101px -2px;
+}
+
+/* line 769, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-browser-globe {
+  width: 31px;
+  height: 37px;
+  background-position: -134px 0;
+}
+
+/* line 775, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-package {
+  width: 101px;
+  height: 38px;
+  background: url("../img/icons/icon-package-101x38.svg") no-repeat;
+  background-size: 100%;
+}
+/* line 781, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.no-svg .icon-package {
+  background: url("../img/icons/icon-package-101x38.png") no-repeat;
+}
+
+/* line 786, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-stats {
+  background: url("../img/icons/icon-sprite-stats.svg") no-repeat;
+  background-size: 52px 156px;
+}
+/* line 790, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.no-svg .icon-stats {
+  background: url("../img/icons/icon-sprite-stats.png") no-repeat;
+}
+/* line 794, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-stats.globe {
+  width: 52px;
+  height: 52px;
+  background-position: 0 0;
+}
+/* line 800, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-stats.location {
+  width: 52px;
+  height: 52px;
+  background-position: 0 -52px;
+}
+/* line 806, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-stats.smiley {
+  width: 52px;
+  height: 52px;
+  background-position: 0 -104px;
+}
+
+/* line 813, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod {
+  background: url("../img/icons/icon-sprite-product-attributes.svg") no-repeat;
+  background-size: 32px 310px;
+}
+/* line 817, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.no-svg .icon-prod {
+  background: url("../img/icons/icon-sprite-product-attributes.png") no-repeat;
+}
+/* line 821, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-fabric {
+  width: 32px;
+  height: 25px;
+  background-position: 0 0;
+}
+/* line 827, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-zdri {
+  width: 32px;
+  height: 25px;
+  background-position: -2px -29px;
+}
+/* line 833, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-supplex {
+  width: 32px;
+  height: 26px;
+  background-position: -4px -58px;
+}
+/* line 839, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-pocket {
+  width: 32px;
+  height: 27px;
+  background-position: -2px -87px;
+}
+/* line 845, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-compress {
+  width: 32px;
+  height: 29px;
+  background-position: -1px -115px;
+}
+/* line 851, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-compress-hi {
+  width: 32px;
+  height: 19px;
+  background-position: -1px -147px;
+}
+/* line 857, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-4-stretch {
+  width: 32px;
+  height: 26px;
+  background-position: -3px -169px;
+}
+/* line 863, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-favorite {
+  width: 32px;
+  height: 26px;
+  background-position: -3px -198px;
+}
+/* line 869, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-muffin {
+  width: 32px;
+  height: 26px;
+  background-position: -2px -227px;
+}
+/* line 875, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-booty {
+  width: 32px;
+  height: 25px;
+  background-position: -5px -255px;
+}
+/* line 881, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_icons.scss */
+.icon-prod.attr-flat {
+  width: 32px;
+  height: 25px;
+  background-position: -4px -284px;
+}
+
+/* line 3, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card {
+  margin-bottom: 1em;
+  display: block;
+  width: 100%;
+  height: 9em;
+  position: relative;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25);
+}
+@media only screen and (min-width: 48em) {
+  /* line 3, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+  .card {
+    margin-bottom: 0;
+  }
+}
+/* line 16, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f8f4eb;
+  padding: .5em;
+  -webkit-border-radius: 0 0 0.3em 0.3em;
+  -moz-border-radius: 0 0 0.3em 0.3em;
+  -ms-border-radius: 0 0 0.3em 0.3em;
+  -o-border-radius: 0 0 0.3em 0.3em;
+  border-radius: 0 0 0.3em 0.3em;
+}
+/* line 26, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card p {
+  margin: 0;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+/* line 32, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card span {
+  display: block;
+  font-size: 12px;
+  font-size: 0.75rem;
+  opacity: .5;
+  text-transform: uppercase;
+}
+
+/* line 40, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.color-row {
+  margin-bottom: 2em !important;
+}
+
+/* line 44, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.color-row + p {
+  margin-top: 2em;
+}
+
+/* line 48, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-white {
+  background: white;
+  -webkit-box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.25), 0 2px 0 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.25), 0 2px 0 0 rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.25), 0 2px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 53, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-pink {
+  background: #e73e5d;
+}
+
+/* line 57, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-midnight {
+  background: #1d1d24;
+}
+
+/* line 61, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-zumba-yellow {
+  background: #dae251;
+}
+
+/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-extra-light-gray {
+  background: #eff0f6;
+}
+
+/* line 69, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-light-gray {
+  background: #dadae2;
+}
+
+/* line 73, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-mid-gray {
+  background: #95959a;
+}
+
+/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-darkness-gray {
+  background: #2c2d37;
+}
+
+/* line 81, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-slate {
+  background: #606b76;
+}
+
+/* line 85, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-warm-gray {
+  background: #353541;
+}
+
+/* line 89, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-red {
+  background: #d0000d;
+}
+
+/* line 93, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-orange {
+  background: #fa962c;
+}
+
+/* line 97, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-black {
+  background: #222222;
+}
+
+/* line 101, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-purple {
+  background: #6c207e;
+}
+
+/* line 105, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-blue {
+  background: #26c1e2;
+}
+
+/* line 109, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-mid-blue {
+  background: #018ca9;
+}
+
+/* line 113, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-zumba-2 {
+  background: #959ca1;
+}
+
+/* line 117, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-aqua {
+  background: #00a0af;
+}
+
+/* line 121, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-gold {
+  background: #f8981d;
+}
+
+/* line 129, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-toning {
+  background: #732b85;
+}
+
+/* line 133, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-sentao {
+  background: #9c0059;
+}
+
+/* line 137, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.c-z-zumbini {
+  background: #e50278;
+}
+
+/* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  color: #333;
+}
+
+/* line 10, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.row {
+  max-width: 70rem;
+}
+
+/* line 14, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.main-wrap {
+  padding-top: 3em;
+}
+@media only screen and (min-width: 48em) {
+  /* line 14, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+  .main-wrap {
+    margin: 0 0 0 19em;
+    min-height: 575px;
+  }
+}
+
+/* line 23, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu-wrap {
+  float: left;
+  width: 17em;
+  height: 100%;
+  position: absolute;
+}
+
+/* line 30, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu {
+  background: #c3cad1;
+  margin: 0;
+  height: 100%;
+}
+/* line 36, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu li {
+  list-style: none;
+  position: relative;
+}
+/* line 40, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu li:first-of-type a {
+  padding-top: 1em;
+}
+/* line 45, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu li:last-of-type a {
+  padding-bottom: 1em;
+}
+/* line 50, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu li.active {
+  box-shadow: inset 5px 0 0 #4d5a66;
+}
+/* line 53, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu li.active:after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -.8em;
+  top: .7em;
+  background: white;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 4px;
+}
+/* line 69, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu a {
+  width: 100%;
+  padding: .5em 1em .5em 2em;
+  display: block;
+  color: #303840;
+  -webkit-transition: all 150ms;
+  -moz-transition: all 150ms;
+  -o-transition: all 150ms;
+  transition: all 150ms;
+}
+/* line 76, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+.side-menu a:hover {
+  color: #fff;
+  background: #4d5a66;
+}
+
 /* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
-.top-bar {
+.header-bar {
   height: 6em;
-  background: #dcdfe2;
+  background: #303840;
+  padding: 1.75em 0 0 1.75em;
+}
+/* line 9, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.header-bar .row {
+  padding: 1.67em 0.9375rem 0 0.9375rem;
+}
+/* line 13, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.header-bar h1 {
+  float: none;
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  font-size: 1.25rem;
+  margin: 0 0 0 3em;
+  line-height: 1.1;
+  letter-spacing: -.025em;
+  display: inline-block;
+  margin-top: .5em;
+  color: #c3cad1;
+  text-transform: none;
+}
+
+/* line 27, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.burger {
+  position: absolute;
+  left: 2em;
+  top: 1.5em;
+}
+
+/* line 33, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.logo {
+  width: 230px;
+  height: 40px;
+  text-indent: -9999px;
+  display: inline-block;
+  float: left;
+  background: url("/img/zumba-tech-logo.svg") 0 0 no-repeat;
+  background-size: cover;
+}
+
+/* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_footer.scss */
+footer {
+  background: #4d5a66;
+  margin-top: 3em;
+  padding: 1em 2em;
+  position: relative;
+}
+/* line 10, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_footer.scss */
+footer svg {
+  fill: white;
+  width: 9em;
+  opacity: .5;
+}
+/* line 16, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_footer.scss */
+footer .copy {
+  float: right;
+  text-align: right;
+  font-size: 12px;
+  font-size: 0.75rem;
+  color: white;
+  opacity: .5;
+  position: relative;
+  top: 1.5em;
+}
+
+/* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_overwrites.scss */
+.spacing-overwrite, sub-sub-head.spacing-overwrite, sub-head.spacing-overwrite {
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+/* line 9, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_overwrites.scss */
+pre[class*="language-"] {
+  margin-bottom: 1em;
 }

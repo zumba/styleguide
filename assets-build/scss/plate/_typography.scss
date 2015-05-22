@@ -1,0 +1,135 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+.section-title {
+	margin: 0 0 .25em;
+	padding: 0;
+	@include b-bold;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1em;
+	@include font-size(30);
+
+	// @media #{$medium} {
+	// 	@include font-size(30);
+	// 	text-align: left;
+	// }
+
+	sup {
+		top:-10px;
+		font-size:55%;
+	}
+}
+
+a {
+	color: $pink;
+	@include b-reg;
+	font-size: 100%;
+
+	&:hover, &:focus {
+		color: $warm-gray;
+	}
+}
+
+// Typography
+h1 {
+	@include b-bold;
+	@include font-size(48);
+	text-transform: uppercase;
+}
+
+h2 {
+	@include b-bold;
+	@include font-size(36);
+	text-transform: uppercase;
+}
+
+h3 {
+	@include b-reg;
+	@include font-size(48);
+}
+
+h3 {
+	@include b-reg;
+	@include font-size(48);
+	letter-spacing: -.025em;
+}
+
+h4 {
+	@include b-reg;
+	@include font-size(36);
+}
+
+h5 {
+	@include minion-it;
+	@include font-size(42);
+}
+
+h6 {
+	@include minion-it;
+	@include font-size(36);
+	line-height: 1.15em;
+	margin-bottom: .5em;
+}
+
+.sub-head {
+	@include minion-it;
+	@include font-size(28);
+}
+
+.sub-sub-head {
+	@include minion-it;
+	@include font-size(24);
+	line-height: 1em;
+}
+
+.b1 {
+	@include b-bold;
+	@include font-size(20);
+	margin-bottom: 0;
+	line-height: 1.1;
+	letter-spacing: -.025em;
+}
+
+.b2 {
+	@include b-bold;
+	@include font-size(16);
+	margin-bottom: .5em;
+	line-height: 1em;
+}
+
+.b3 {
+	@include b-bold;
+	@include font-size(14);
+}
+
+.t1 {
+	@include b-bold;
+	@include font-size(18);
+	text-transform: uppercase;
+}
+
+.lighten {
+    color: #a7a7a7;
+}
+
+p {
+	@include b-reg;
+	@include font-size(16);
+	margin-bottom: 1.5em;
+
+	strong {
+		@include b-bold;
+		font-size: 100%;
+	}
+}
+
+sup {
+	padding-right: 0.2em;
+	line-height: 0;
+	position: relative;
+	font-size: 50%;
+}
+

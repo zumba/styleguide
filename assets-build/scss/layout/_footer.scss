@@ -1,0 +1,25 @@
+
+// footer
+
+footer {
+	background: $sg-mid-gray;
+	margin-top: 3em;
+	padding: 1em 2em;
+	position: relative;
+
+	svg {
+		fill: $white;
+		width: 9em;
+		opacity: .5;
+	}
+
+	.copy {
+		float: right;
+		text-align: right;
+		@include font-size(12);
+		color: $white;
+		opacity: .5;
+		position: relative;
+		top: 1.5em;
+	}
+}
