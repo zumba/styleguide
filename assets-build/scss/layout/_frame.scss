@@ -4,7 +4,7 @@
 body {
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	color: #333;
+	color: $black;
 }
 
 .row {
@@ -17,6 +17,7 @@ body {
 	@media #{$medium-up} {
 		margin: 0 0 0 19em;
 		min-height: 575px;
+		width: calc(100% - 19em);
 	}
 }
 

@@ -1,0 +1,8 @@
+// code description
+
+.desc {
+	@include b-reg;
+	@include font-size(14);
+	color: $black;
+	opacity: .5;
+}

@@ -1554,11 +1554,21 @@ sup {
   background: #e50278;
 }
 
+/* line 3, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_code-desc.scss */
+.desc {
+  font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #222222;
+  opacity: .5;
+}
+
 /* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  color: #333;
+  color: #222222;
 }
 
 /* line 10, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
@@ -1575,6 +1585,7 @@ body {
   .main-wrap {
     margin: 0 0 0 19em;
     min-height: 575px;
+    width: calc(100% - 19em);
   }
 }
 
@@ -1597,15 +1608,12 @@ body {
   list-style: none;
   position: relative;
 }
-/* line 40, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li:first-of-type a {
   padding-top: 1em;
 }
-/* line 45, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li:last-of-type a {
   padding-bottom: 1em;
 }
-/* line 50, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li.active {
   box-shadow: inset 5px 0 0 #4d5a66;
 }
@@ -1633,7 +1641,6 @@ body {
   -o-transition: all 150ms;
   transition: all 150ms;
 }
-/* line 76, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu a:hover {
   color: #fff;
   background: #4d5a66;
