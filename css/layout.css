@@ -1418,8 +1418,8 @@ sup {
 /* line 26, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .card p {
   margin: 0;
-  font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 12px;
+  font-size: 0.75rem;
   font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 }
 /* line 32, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
@@ -1430,18 +1430,40 @@ sup {
   opacity: .5;
   text-transform: uppercase;
 }
+/* line 39, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card span[class^="icon-"] {
+  position: relative;
+  left: 50%;
+  top: 35%;
+  opacity: 1;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  -o-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  /* line 39, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+  .card span[class^="icon-"] {
+    -webkit-transform: translateY(-50%) translateX(-50%) scale(0.75);
+    -moz-transform: translateY(-50%) translateX(-50%) scale(0.75);
+    -ms-transform: translateY(-50%) translateX(-50%) scale(0.75);
+    -o-transform: translateY(-50%) translateX(-50%) scale(0.75);
+    transform: translateY(-50%) translateX(-50%) scale(0.75);
+  }
+}
 
-/* line 40, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
-.color-row {
+/* line 52, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card-row {
   margin-bottom: 2em !important;
 }
 
-/* line 44, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
-.color-row + p {
+/* line 56, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.card-row + p {
   margin-top: 2em;
 }
 
-/* line 48, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 60, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-white {
   background: white;
   -webkit-box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.25), 0 2px 0 0 rgba(0, 0, 0, 0.25);
@@ -1449,109 +1471,137 @@ sup {
   box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, 0.25), 0 2px 0 0 rgba(0, 0, 0, 0.25);
 }
 
-/* line 53, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-pink {
   background: #e73e5d;
 }
 
-/* line 57, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 69, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-midnight {
   background: #1d1d24;
 }
 
-/* line 61, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 73, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-zumba-yellow {
   background: #dae251;
 }
 
-/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-extra-light-gray {
   background: #eff0f6;
 }
 
-/* line 69, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 81, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-light-gray {
   background: #dadae2;
 }
 
-/* line 73, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 85, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-mid-gray {
   background: #95959a;
 }
 
-/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 89, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-darkness-gray {
   background: #2c2d37;
 }
 
-/* line 81, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 93, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-slate {
   background: #606b76;
 }
 
-/* line 85, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 97, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-warm-gray {
   background: #353541;
 }
 
-/* line 89, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 101, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-red {
   background: #d0000d;
 }
 
-/* line 93, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 105, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-orange {
   background: #fa962c;
 }
 
-/* line 97, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 109, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-black {
   background: #222222;
 }
 
-/* line 101, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 113, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-purple {
   background: #6c207e;
 }
 
-/* line 105, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 117, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-blue {
   background: #26c1e2;
 }
 
-/* line 109, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 121, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-mid-blue {
   background: #018ca9;
 }
 
-/* line 113, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 125, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-z-zumba-2 {
   background: #959ca1;
 }
 
-/* line 117, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 129, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-z-aqua {
   background: #00a0af;
 }
 
-/* line 121, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 133, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-z-gold {
   background: #f8981d;
 }
 
-/* line 129, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 141, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-z-toning {
   background: #732b85;
 }
 
-/* line 133, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 145, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-z-sentao {
   background: #9c0059;
 }
 
-/* line 137, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+/* line 149, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
 .c-z-zumbini {
   background: #e50278;
+}
+
+/* line 153, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.icon-help-dark {
+  background: #303840;
+}
+
+/* line 157, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.icon-cartcount-png {
+  height: 32px;
+}
+
+/* line 161, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.icon-play-svg {
+  height: 86px;
+}
+
+/* line 165, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.icon-zin-edit-svg {
+  width: 25px;
+  height: 31px;
+}
+
+/* line 170, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_cards.scss */
+.icon-zin-edit-active-svg {
+  background-position: -26px -100px;
+  width: 25px;
+  height: 31px;
 }
 
 /* line 3, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_code-desc.scss */
@@ -1562,6 +1612,442 @@ sup {
   font-size: 0.875rem;
   color: #222222;
   opacity: .5;
+}
+
+/* line 1, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.button {
+  margin: 0;
+  padding-bottom: .77em;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background: #e73e5d;
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  -webkit-transition: background 200ms;
+  -moz-transition: background 200ms;
+  -o-transition: background 200ms;
+  transition: background 200ms;
+}
+/* line 12, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.ie8 .button {
+  padding: 1em 2em;
+}
+
+/* line 20, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+button:hover, button:focus,
+.button:hover,
+.button:focus {
+  background: #353541;
+}
+/* line 24, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+button[disabled], button[disabled]:hover,
+.button[disabled],
+.button[disabled]:hover {
+  background: #dadae2;
+  cursor: not-allowed;
+}
+/* line 28, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.ie button[disabled], .ie button[disabled]:hover, .ie
+.button[disabled], .ie
+.button[disabled]:hover {
+  background-color: #2c2d37;
+}
+
+/* line 34, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-outlined-white {
+  background: none;
+  border: 1px solid white;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+/* line 40, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-outlined-white:hover {
+  border: solid 1px #1d1d24;
+  background: none;
+  color: #1d1d24;
+}
+
+/* line 47, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-white-haze {
+  background: rgba(255, 255, 255, 0.75);
+  color: #1d1d24;
+  border: 0;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+/* line 54, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-white-haze:hover {
+  color: #e73e5d;
+  border: 0;
+}
+
+/* line 60, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-outlined-dark {
+  background: none;
+  border: 1px solid #1d1d24;
+  color: #1d1d24;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+}
+
+/* line 67, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-outlined-pink {
+  background: none;
+  border: 1px solid #e73e5d;
+  color: #e73e5d;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+/* line 74, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-outlined-pink:hover {
+  border: solid 1px #1d1d24;
+  background: none;
+  color: #353541;
+}
+
+/* line 81, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-outlined-green {
+  background: none;
+  border: 1px solid #dae251;
+  color: white;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+/* line 88, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-outlined-green:hover {
+  border: solid 1px #dae251;
+  background: #dae251;
+  color: #353541;
+}
+
+/* line 95, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.button-link {
+  display: inline-block;
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: "BrandonText-Medium", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* line 103, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-green {
+  background: #dae251;
+  color: #1d1d24;
+}
+/* line 107, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-green:hover {
+  background: #353541;
+  color: white;
+}
+
+/* line 113, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-gray {
+  background: #f6f6f6;
+  color: #e73e5d;
+}
+/* line 117, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.is-gray:hover {
+  background: #353541;
+  border: none;
+  color: white;
+}
+
+/* line 124, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.button-back {
+  color: #e73e5d;
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-size: 0.875rem;
+  text-decoration: none;
+  -webkit-transition: color 200ms;
+  -moz-transition: color 200ms;
+  -o-transition: color 200ms;
+  transition: color 200ms;
+}
+/* line 131, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.button-back:hover {
+  color: #353541;
+}
+
+/* line 136, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.blt-click-to {
+  cursor: pointer;
+}
+
+/* line 140, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.big-play-button {
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  width: 6.25em;
+  height: 6.25em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 1;
+  border: .25em solid #fff;
+  -webkit-transition: background, 0.2s;
+  -moz-transition: background, 0.2s;
+  -o-transition: background, 0.2s;
+  transition: background, 0.2s;
+  pointer-events: auto !important;
+}
+/* line 165, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.big-play-button:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+/* line 169, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.big-play-button:focus {
+  outline: 0;
+}
+/* line 173, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.big-play-button:before {
+  position: absolute;
+  left: .125em;
+  top: .37em;
+  width: 100%;
+  height: 100%;
+  content: "\e001";
+  font-family: VideoJS;
+  font-size: 2.5em;
+  text-align: center;
+  color: #fff;
+  outline: 0;
+}
+/* line 187, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.ie .big-play-button:before, .ie11 .big-play-button:before {
+  top: .5em;
+  font-size: .6em;
+}
+
+/* line 194, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.big-play-button.dark {
+  border: 0.25em solid #2c2d37;
+}
+/* line 197, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.big-play-button.dark:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+/* line 201, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.big-play-button.dark:before {
+  color: #2c2d37;
+}
+
+/* line 206, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.gray-play-button {
+  background-color: #606166;
+  background-color: rgba(96, 97, 102, 0.7);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: relative;
+  -webkit-transition: background, 0.2s;
+  -moz-transition: background, 0.2s;
+  -o-transition: background, 0.2s;
+  transition: background, 0.2s;
+}
+/* line 216, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.gray-play-button:hover {
+  background-color: #606166;
+}
+/* line 220, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.gray-play-button span {
+  display: block;
+  position: relative;
+  top: 37px;
+  left: 39px;
+  background-color: white;
+  text-align: left;
+  width: 18px;
+  height: 18px;
+  border-top-right-radius: 8%;
+  -webkit-transform: rotate(-90deg) skewX(-30deg) scale(1, 0.866);
+  transform: rotate(-90deg) skewX(-30deg) scale(1, 0.866);
+}
+/* line 234, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.gray-play-button span:before, .gray-play-button span:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  width: 18px;
+  height: 18px;
+  border-top-right-radius: 8%;
+}
+/* line 243, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.gray-play-button span:before {
+  -webkit-transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
+}
+/* line 247, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.gray-play-button span:after {
+  -webkit-transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+  transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
+
+/* line 269, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.occ-mobile-button {
+  display: block;
+  margin: 1em auto;
+}
+
+/* line 274, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.caret-button {
+  position: relative;
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+/* line 280, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.caret-button a {
+  display: block;
+  font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #95959b;
+  background-color: white;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+@media only screen and (min-width: 48em) {
+  /* line 280, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+  .caret-button a {
+    min-width: 180px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #dadae2;
+  }
+}
+/* line 297, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.caret-button a:hover {
+  color: #2c2d37;
+  border-color: #1d1d24;
+}
+/* line 305, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.caret-button.cb-active a {
+  border-color: #1d1d24;
+  -webkit-box-shadow: inset 0 0 0 1px #1d1d24;
+  -moz-box-shadow: inset 0 0 0 1px #1d1d24;
+  box-shadow: inset 0 0 0 1px #1d1d24;
+  color: #2c2d37;
+  font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+/* line 311, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.caret-button.cb-active a:after {
+  position: absolute;
+  height: 0;
+  width: 0;
+  margin-top: -0.5em;
+  border: solid transparent;
+  pointer-events: none;
+  border-width: .5em;
+  content: " ";
+  z-index: 9;
+}
+/* line 324, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.caret-button.cb-active:after {
+  position: absolute;
+  height: 0;
+  width: 0;
+  margin-top: -0.5em;
+  border: solid transparent;
+  pointer-events: none;
+  border-width: .5em;
+  content: " ";
+}
+/* line 337, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.caret-button.cb-caret-left:after {
+  left: 11.2em;
+  top: 49%;
+  border-left-color: #1d1d24;
+}
+/* line 344, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.caret-button.cb-caret-left a:after {
+  left: 11em;
+  top: 49.2%;
+  border-left-color: white;
+}
+/* line 354, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.caret-button.cb-caret-bottom:after {
+  left: 50%;
+  bottom: -14px;
+  border-top-color: #1d1d24;
+}
+/* line 361, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.caret-button.cb-caret-bottom a:after {
+  left: 50%;
+  bottom: -13px;
+  border-top-color: white;
+}
+
+/* line 375, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.button-row.dark {
+  background: #303840;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+@media only screen and (min-width: 48em) {
+  /* line 375, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+  .button-row.dark {
+    border-radius: .3em;
+  }
+}
+/* line 385, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/toppings/_button.scss */
+.button-row .button {
+  margin: 0 1em 1em 0;
 }
 
 /* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
@@ -1589,7 +2075,7 @@ body {
   }
 }
 
-/* line 23, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 24, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu-wrap {
   float: left;
   width: 17em;
@@ -1597,27 +2083,30 @@ body {
   position: absolute;
 }
 
-/* line 30, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 31, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu {
   background: #c3cad1;
   margin: 0;
   height: 100%;
 }
-/* line 36, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 37, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li {
   list-style: none;
   position: relative;
 }
+/* line 41, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li:first-of-type a {
   padding-top: 1em;
 }
+/* line 46, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li:last-of-type a {
   padding-bottom: 1em;
 }
+/* line 51, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li.active {
   box-shadow: inset 5px 0 0 #4d5a66;
 }
-/* line 53, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 54, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li.active:after {
   content: '';
   position: absolute;
@@ -1630,7 +2119,7 @@ body {
   transform: rotate(45deg);
   border-radius: 4px;
 }
-/* line 69, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 70, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu a {
   width: 100%;
   padding: .5em 1em .5em 2em;
@@ -1641,6 +2130,7 @@ body {
   -o-transition: all 150ms;
   transition: all 150ms;
 }
+/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu a:hover {
   color: #fff;
   background: #4d5a66;
