@@ -25,7 +25,7 @@
 
 	p {
 		margin: 0;
-		@include font-size(14);
+		@include font-size(12);
 		font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 	}
 
@@ -35,13 +35,25 @@
 		opacity: .5;
 		text-transform: uppercase;
 	}
+
+	span[class^="icon-"] {
+		position: relative;
+		left: 50%;
+		top: 35%;
+		opacity: 1;
+		@include transform(translateY(-50%) translateX(-50%));
+
+		@media (min-width: 768px) and (max-width: 1100px) {
+			@include transform(translateY(-50%) translateX(-50%) scale(.75));
+		}
+	}
 }
 
-.color-row {
+.card-row {
 	margin-bottom: 2em !important;
 }
 
-.color-row + p {
+.card-row + p {
 	margin-top: 2em;
 }
 
@@ -138,4 +150,26 @@
 	background: $z-zumbini;
 }
 
+.icon-help-dark {
+	background: $sg-dark-gray;
+}
+
+.icon-cartcount-png {
+	height: 32px;
+}
+
+.icon-play-svg {
+	height: 86px;
+}
+
+.icon-zin-edit-svg {
+	width: 25px;
+	height: 31px;
+}
+
+.icon-zin-edit-active-svg {
+    background-position: -26px -100px;
+    width: 25px;
+    height: 31px;
+}
 
