@@ -1,7 +1,32 @@
-<!-- <section class="small-12 medium-10 columns"> -->
 <section class="columns">
-	Code for Real in contents
-	<p class="show-for-large-up">show on large</p>
-	<p class="show-for-medium-only">show on medium</p>
-	<p class="show-for-small-only">show on small</p>
+	<h2>Code</h2>
+	<p>
+		The way we like for our Sass format to be is as follows.
+	</p>
+
+		<p class="sub-sub-head">CSS Format</p>
+		<pre zsg-prism class="language-css" source="h1 {
+	@include b-reg;
+	@inlcude font-size(18);
+	color: $mid-gray;
+
+	@media #{$medium-up} {
+		@inlcude font-size(20);
+	}
+
+	span {
+		display: block;
+	}
+}
+
+/*
+	+ Tab once, no spaces
+	+ One line space between media queries or nested element
+	+ No inline properties
+	+ We never style ID’s only Classes
+	+ Try to code in the order in which the elements are dsiplayed in the markup
+	+ Keep nesting down to a minimum and no deeper than 4 levels including pseudo selectors
+	+ Media queries go after properties and the order should reflect mobile first
+*/"></pre>
+
 </section>

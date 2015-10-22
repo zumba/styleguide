@@ -2161,15 +2161,29 @@ body {
   color: #c3cad1;
   text-transform: none;
 }
+@media only screen and (max-width: 47.9375em) {
+  /* line 13, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+  .header-bar h1 {
+    padding: .5em 1.5em;
+    background: #c3cad1;
+    color: #303840;
+    display: block;
+    clear: both;
+    text-align: center;
+    position: relative;
+    top: 1.25em;
+    margin-left: -1.5em;
+  }
+}
 
-/* line 27, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+/* line 39, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
 .burger {
   position: absolute;
   left: 2em;
-  top: 1.5em;
+  top: 6.5em;
 }
 
-/* line 33, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+/* line 45, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
 .logo {
   width: 230px;
   height: 40px;
