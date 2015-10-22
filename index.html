@@ -14,8 +14,6 @@
         <link rel="stylesheet" href="css/prism.css">
 
         <script src="bower_components/modernizr/modernizr.js"></script>
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="bower_components/foundation/js/foundation.min.js"></script>
         <script src="bower_components/angular/angular.min.js"></script>
         <script src="bower_components/angular-route/angular-route.min.js"></script>
         <script src="js/prism.js"></script>
@@ -54,5 +52,13 @@
                 <a class="exit-off-canvas"></a>
             </div>
         </div>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/foundation/js/foundation.min.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+        <script>
+            (function($){
+                $(document).foundation();
+            })(jQuery);
+        </script>
     </body>
 </html>
