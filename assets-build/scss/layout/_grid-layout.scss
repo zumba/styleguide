@@ -1,0 +1,32 @@
+// grid layout
+
+.grid-example {
+	margin: 0 !important;
+
+	.column {
+		height: 5em;
+		margin-bottom: 2em;
+		background: rgba(123, 241, 206, .5);
+	}
+
+	.grid-block {
+		height: 100%;
+		width: 100%;
+		background: rgba(123, 241, 206, .5);
+		@include font-size(14);
+		@include b-med;
+
+		span {
+			top: 25%;
+			position: relative;
+
+			@media #{$small-only} {
+				display: none;
+			}
+		}
+	}
+}
+
+.grid-desc {
+	margin-bottom: .5em;
+}

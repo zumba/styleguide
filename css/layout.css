@@ -12,87 +12,87 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8981d', endColorstr='#732b85',GradientType=1 );
 }
 
-/* line 61, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 62, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-zumba {
   background: url("/img/patterns/pattern-yellow.jpg") repeat;
 }
 
-/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 66, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-aqua-zumba {
   background: url("/img/patterns/pattern-aqua.jpg") repeat;
 }
 
-/* line 69, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 70, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-zumba-in-the-circuit {
   background: url("/img/patterns/pattern-gray.jpg") repeat;
 }
 
-/* line 73, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 74, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-zumba-gold {
   background: url("/img/patterns/pattern-gold.jpg") repeat;
 }
 
-/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 78, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-zumba-gold-toning {
   background: url("/img/patterns/pattern-purple.jpg") repeat;
 }
 
-/* line 81, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 82, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-zumba-kids {
   background: url("/img/patterns/pattern-yellow.jpg") repeat;
 }
 
-/* line 85, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 86, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-zumba-kids-jr {
   background: url("/img/patterns/pattern-yellow.jpg") repeat;
 }
 
-/* line 89, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 90, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-zumba-sentao {
   background: url("/img/patterns/pattern-sentao.jpg") repeat;
 }
 
-/* line 93, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 94, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-zumba-step {
   background: url("/img/patterns/pattern-yellow.jpg") repeat;
 }
 
-/* line 97, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 98, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-zumba-toning {
   background: url("/img/patterns/pattern-purple.jpg") repeat;
 }
 
-/* line 101, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 102, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-zumbini {
   background: url("/img/patterns/pattern-pink.jpg") repeat;
 }
 
-/* line 105, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 106, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-dark {
   background: url("/img/patterns/dark-pattern.png") repeat;
 }
 
-/* line 109, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 110, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-wave-black {
   background: url("/img/patterns/pattern-wavy-black.gif") repeat;
 }
 
-/* line 113, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 114, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-wave-pink {
   background: url("/img/patterns/pink-wavy-bg.png") repeat;
 }
 
-/* line 117, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 118, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-wave-blue {
   background: url("/img/patterns/wavy-bg.png") repeat;
 }
 
-/* line 121, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 122, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-shop-promo {
   background: url("/img/patterns/shop-promo-bg.jpg") repeat;
 }
 
-/* line 125, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
+/* line 126, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_variables.scss */
 .zp-shop-promo-orange {
   background: url("/img/patterns/pattern-hash-orange-pink.gif") repeat;
 }
@@ -209,25 +209,25 @@ body {
   font-size: 30px;
   font-size: 1.875rem;
 }
-/* line 20, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 15, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 .section-title sup {
   top: -10px;
   font-size: 55%;
 }
 
-/* line 26, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 21, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 a {
   color: #e73e5d;
   font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 100%;
 }
-/* line 31, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 26, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 a:hover, a:focus {
   color: #353541;
 }
 
-/* line 37, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 32, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 h1 {
   font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -236,7 +236,7 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 43, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 38, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 h2 {
   font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -245,7 +245,7 @@ h2 {
   text-transform: uppercase;
 }
 
-/* line 49, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 44, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 h3 {
   font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -253,7 +253,7 @@ h3 {
   font-size: 3rem;
 }
 
-/* line 54, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 49, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 h3 {
   font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -262,7 +262,7 @@ h3 {
   letter-spacing: -.025em;
 }
 
-/* line 60, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 55, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 h4 {
   font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -270,7 +270,7 @@ h4 {
   font-size: 2.25rem;
 }
 
-/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 60, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 h5 {
   font-family: "Minion Pro", serif;
   font-style: italic;
@@ -278,7 +278,7 @@ h5 {
   font-size: 2.625rem;
 }
 
-/* line 70, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 h6 {
   font-family: "Minion Pro", serif;
   font-style: italic;
@@ -288,7 +288,7 @@ h6 {
   margin-bottom: .5em;
 }
 
-/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 72, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 .sub-head {
   font-family: "Minion Pro", serif;
   font-style: italic;
@@ -296,7 +296,7 @@ h6 {
   font-size: 1.75rem;
 }
 
-/* line 82, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 .sub-sub-head {
   font-family: "Minion Pro", serif;
   font-style: italic;
@@ -305,7 +305,7 @@ h6 {
   line-height: 1em;
 }
 
-/* line 88, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 83, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 .b1 {
   font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -316,7 +316,7 @@ h6 {
   letter-spacing: -.025em;
 }
 
-/* line 96, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 91, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 .b2 {
   font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -326,7 +326,7 @@ h6 {
   line-height: 1em;
 }
 
-/* line 103, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 98, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 .b3 {
   font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -334,7 +334,7 @@ h6 {
   font-size: 0.875rem;
 }
 
-/* line 108, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 103, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 .t1 {
   font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -343,12 +343,12 @@ h6 {
   text-transform: uppercase;
 }
 
-/* line 114, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 109, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 .lighten {
   color: #a7a7a7;
 }
 
-/* line 118, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 113, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 p {
   font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -356,14 +356,14 @@ p {
   font-size: 1rem;
   margin-bottom: 1.5em;
 }
-/* line 123, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 118, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 p strong {
   font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 100%;
 }
 
-/* line 129, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
+/* line 124, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/plate/_typography.scss */
 sup {
   padding-right: 0.2em;
   line-height: 0;
@@ -2064,7 +2064,7 @@ body {
 
 /* line 14, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .main-wrap {
-  padding-top: 3em;
+  padding: 5em .5em 0;
 }
 @media only screen and (min-width: 48em) {
   /* line 14, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
@@ -2072,10 +2072,11 @@ body {
     margin: 0 0 0 19em;
     min-height: 575px;
     width: calc(100% - 19em);
+    padding: 3em 0 0;
   }
 }
 
-/* line 24, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 25, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu-wrap {
   float: left;
   width: 17em;
@@ -2083,30 +2084,30 @@ body {
   position: absolute;
 }
 
-/* line 31, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 32, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu {
   background: #c3cad1;
   margin: 0;
   height: 100%;
 }
-/* line 37, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 38, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li {
   list-style: none;
   position: relative;
 }
-/* line 41, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 42, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li:first-of-type a {
   padding-top: 1em;
 }
-/* line 46, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 47, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li:last-of-type a {
   padding-bottom: 1em;
 }
-/* line 51, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 52, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li.active {
   box-shadow: inset 5px 0 0 #4d5a66;
 }
-/* line 54, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 55, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu li.active:after {
   content: '';
   position: absolute;
@@ -2119,7 +2120,7 @@ body {
   transform: rotate(45deg);
   border-radius: 4px;
 }
-/* line 70, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 71, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu a {
   width: 100%;
   padding: .5em 1em .5em 2em;
@@ -2130,7 +2131,7 @@ body {
   -o-transition: all 150ms;
   transition: all 150ms;
 }
-/* line 77, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
+/* line 78, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_frame.scss */
 .side-menu a:hover {
   color: #fff;
   background: #4d5a66;
@@ -2142,11 +2143,17 @@ body {
   background: #303840;
   padding: 1.75em 0 0 1.75em;
 }
-/* line 9, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+@media only screen and (max-width: 47.9375em) {
+  /* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+  .header-bar {
+    padding: 1.75em 0 0 1.25em;
+  }
+}
+/* line 13, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
 .header-bar .row {
   padding: 1.67em 0.9375rem 0 0.9375rem;
 }
-/* line 13, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+/* line 17, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
 .header-bar h1 {
   float: none;
   font-family: "BrandonText-Bold", Helvetica, Arial, sans-serif;
@@ -2162,7 +2169,7 @@ body {
   text-transform: none;
 }
 @media only screen and (max-width: 47.9375em) {
-  /* line 13, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+  /* line 17, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
   .header-bar h1 {
     padding: .5em 1.5em;
     background: #c3cad1;
@@ -2170,20 +2177,54 @@ body {
     display: block;
     clear: both;
     text-align: center;
-    position: relative;
-    top: 1.25em;
-    margin-left: -1.5em;
+    position: absolute;
+    top: 4.25em;
+    width: 100%;
+    margin-left: -1em;
   }
 }
 
-/* line 39, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
-.burger {
+/* line 44, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.burger-wrapper {
+  text-indent: -9999px;
+  left: 0;
+  top: 6em;
   position: absolute;
-  left: 2em;
-  top: 6.5em;
+  width: 4em;
+  height: 2.5em;
 }
 
-/* line 45, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+/* line 53, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.burger, .burger::before, .burger::after {
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  border-radius: .3em;
+  background: #303840;
+}
+
+/* line 61, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.burger {
+  text-indent: -9999px;
+  left: 1.5em;
+  top: 1.1em;
+}
+/* line 68, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.burger::before, .burger::after {
+  content: '';
+}
+/* line 72, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.burger::before {
+  top: -8px;
+  left: 0;
+}
+/* line 78, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.burger::after {
+  top: 8px;
+  left: 0;
+}
+
+/* line 85, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
 .logo {
   width: 230px;
   height: 40px;
@@ -2192,6 +2233,24 @@ body {
   float: left;
   background: url("/img/zumba-tech-logo.svg") 0 0 no-repeat;
   background-size: cover;
+}
+
+/* line 95, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+h1 {
+  font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  @inlcude font-size(18);
+  color: #95959a;
+}
+@media only screen and (min-width: 48em) {
+  /* line 95, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+  h1 {
+    @inlcude font-size(20);
+  }
+}
+/* line 104, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+h1 span {
+  display: block;
 }
 
 /* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_footer.scss */
@@ -2223,9 +2282,152 @@ footer .copy {
 .spacing-overwrite, sub-sub-head.spacing-overwrite, sub-head.spacing-overwrite {
   margin-bottom: 0;
   line-height: 1;
+  color: #222;
 }
 
-/* line 9, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_overwrites.scss */
+/* line 10, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_overwrites.scss */
 pre[class*="language-"] {
   margin-bottom: 1em;
+}
+
+/* line 3, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_grid-layout.scss */
+.grid-example {
+  margin: 0 !important;
+}
+/* line 6, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_grid-layout.scss */
+.grid-example .column {
+  height: 5em;
+  margin-bottom: 2em;
+  background: rgba(123, 241, 206, 0.5);
+}
+/* line 12, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_grid-layout.scss */
+.grid-example .grid-block {
+  height: 100%;
+  width: 100%;
+  background: rgba(123, 241, 206, 0.5);
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: "BrandonText-Medium", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+/* line 19, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_grid-layout.scss */
+.grid-example .grid-block span {
+  top: 25%;
+  position: relative;
+}
+@media only screen and (max-width: 47.9375em) {
+  /* line 19, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_grid-layout.scss */
+  .grid-example .grid-block span {
+    display: none;
+  }
+}
+
+/* line 30, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_grid-layout.scss */
+.grid-desc {
+  margin-bottom: .5em;
+}
+
+/* line 5, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-row .column {
+  margin-bottom: 3em !important;
+}
+
+/* line 10, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-header {
+  background: #7bf1ce;
+  text-align: center;
+  padding: .5em;
+  border-radius: .3em .3em 0 0;
+}
+/* line 16, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-header p {
+  font-family: "BrandonText-Medium", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+/* line 21, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-header p span {
+  display: block;
+  font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  opacity: .5;
+}
+
+/* line 29, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-icon {
+  width: 100%;
+  height: 10em;
+  display: block;
+  background-size: initial;
+  border: 1px solid #c3cad1;
+  border-top: none;
+  border-radius: 0 0 .3em .3em;
+}
+/* line 38, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-icon.mobile {
+  background: url("../img/icons/icon-phone.png") center no-repeat;
+}
+/* line 42, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-icon.tablet {
+  background: url("../img/icons/icon-tablet.png") center no-repeat;
+}
+/* line 46, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-icon.laptop {
+  background: url("../img/icons/icon-laptop.png") center no-repeat;
+}
+
+/* line 51, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-examples {
+  margin: 0 !important;
+}
+
+/* line 55, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-small, .bp-medium, .bp-large {
+  padding: 1em;
+  text-align: center;
+  color: white;
+  border-radius: .3em;
+  font-family: "BrandonText-Medium", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-small {
+  display: block;
+  background: #91AA9D;
+}
+@media only screen and (min-width: 48em) {
+  /* line 65, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+  .bp-small {
+    display: none;
+  }
+}
+
+/* line 75, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-medium {
+  display: none;
+  background: #3E606F;
+}
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+  /* line 75, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+  .bp-medium {
+    display: block;
+  }
+}
+
+/* line 85, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+.bp-large {
+  display: none;
+  background: #193441;
+}
+@media only screen and (min-width: 64em) {
+  /* line 85, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_breakpoint.scss */
+  .bp-large {
+    display: block;
+  }
 }

@@ -12,12 +12,13 @@ body {
 }
 
 .main-wrap {
-	padding-top: 3em;
+	padding: 5em .5em 0;
 
 	@media #{$medium-up} {
 		margin: 0 0 0 19em;
 		min-height: 575px;
 		width: calc(100% - 19em);
+		padding: 3em 0 0;
 	}
 }
 

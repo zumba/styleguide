@@ -1,0 +1,93 @@
+// breakpoint
+
+.bp-row {
+
+	.column {
+		margin-bottom: 3em !important;
+	}
+}
+
+.bp-header {
+	background: $seafoam;
+	text-align: center;
+	padding: .5em;
+	border-radius: .3em .3em 0 0;
+
+	p {
+		@include b-med;
+		@include font-size(14);
+		margin-bottom: 0;
+
+		span {
+			display: block;
+			@include b-reg;
+			opacity: .5;
+		}
+	}
+}
+
+.bp-icon {
+	width: 100%;
+	height: 10em;
+	display: block;
+	background-size: initial;
+	border: 1px solid $sg-light-gray;
+	border-top: none;
+	border-radius: 0 0 .3em .3em;
+
+	&.mobile {
+		background: url("../img/icons/icon-phone.png") center no-repeat;
+	}
+
+	&.tablet {
+		background: url("../img/icons/icon-tablet.png") center no-repeat;
+	}
+
+	&.laptop {
+		background: url("../img/icons/icon-laptop.png") center no-repeat;
+	}
+}
+
+.bp-examples {
+	margin: 0 !important;
+}
+
+%bp-block-stylings {
+	padding: 1em;
+	text-align: center;
+	color: $white;
+	border-radius: .3em;
+	@include b-med;
+	@include font-size(16);
+	text-transform: uppercase;
+}
+
+.bp-small {
+	display: block;
+	@extend %bp-block-stylings;
+	background: #91AA9D;
+
+	@media #{$medium-up} {
+		display: none;
+	}
+}
+
+.bp-medium {
+	display: none;
+	@extend %bp-block-stylings;
+	background: #3E606F;
+
+	@media #{$medium-only} {
+		display: block;
+	}
+}
+
+.bp-large {
+	display: none;
+	@extend %bp-block-stylings;
+	background: #193441;
+
+	@media #{$large-up} {
+		display: block;
+	}
+}
