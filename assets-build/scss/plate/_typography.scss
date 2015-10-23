@@ -12,11 +12,6 @@ body {
 	line-height: 1em;
 	@include font-size(30);
 
-	// @media #{$medium} {
-	// 	@include font-size(30);
-	// 	text-align: left;
-	// }
-
 	sup {
 		top:-10px;
 		font-size:55%;

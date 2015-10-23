@@ -1,6 +1,64 @@
 <section class="columns">
 	<h2>Breakpoints</h2>
 	<p>
-		These are the breakpoints.
+		These are the breakpoints that we use on the Zumba website.
 	</p>
+	<div class="bp-row row">
+		<div class="medium-4 column">
+			<div class="bp-header">
+				<p>0em - 47.9375em<span>(0px - 767px)</span></p>
+			</div>
+			<span class="bp-icon mobile"></span>
+		</div>
+		<div class="medium-4 column">
+			<div class="bp-header">
+				<p>48em - 63.9375em<span>(768px - 1023px)</span></p>
+			</div>
+			<span class="bp-icon tablet"></span>
+		</div>
+		<div class="medium-4 column">
+			<div class="bp-header">
+				<p>64em - 67.9375em<span>(1024px +)</span></p>
+			</div>
+			<span class="bp-icon laptop"></span>
+		</div>
+	</div>
+
+	<p class="sub-sub-head">Breakpoint Example:</p>
+
+	<div class="bp-examples row">
+		<span class="bp-small column">small</span>
+		<span class="bp-medium column">medium</span>
+		<span class="bp-large column">large</span>
+	</div>
+
+	<pre zsg-prism class="language-css" source='.bp-small {
+	display: block;
+	@extend %bp-block-stylings;
+	background: #91AA9D;
+
+	@media #{$medium-up} {
+		display: none;
+	}
+}
+
+.bp-medium {
+	display: none;
+	@extend %bp-block-stylings;
+	background: #3E606F;
+
+	@media #{$medium-only} {
+		display: block;
+	}
+}
+
+.bp-large {
+	display: none;
+	@extend %bp-block-stylings;
+	background: #193441;
+
+	@media #{$large-up} {
+		display: block;
+	}
+}'></pre>
 </section>
