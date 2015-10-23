@@ -2253,6 +2253,35 @@ h1 span {
   display: block;
 }
 
+/* line 109, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.exit-off-canvas {
+  box-shadow: none !important;
+}
+
+/* line 113, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.left-off-canvas-menu {
+  background: #303840;
+}
+/* line 116, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.left-off-canvas-menu ul {
+  margin: 0;
+}
+/* line 120, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.left-off-canvas-menu li {
+  list-style: none;
+}
+/* line 124, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.left-off-canvas-menu a {
+  color: #dbffb9;
+  display: block;
+  padding: .75em 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 130, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
+.left-off-canvas-menu a:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
 /* line 4, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_footer.scss */
 footer {
   background: #4d5a66;

@@ -106,3 +106,30 @@ h1 {
 	}
 }
 
+.exit-off-canvas {
+	box-shadow: none !important;
+}
+
+.left-off-canvas-menu {
+	background: $sg-dark-gray;
+
+	ul {
+		margin: 0;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	a {
+		color: $mad-mint;
+		display: block;
+		padding: .75em 1em;
+		border-bottom: 1px solid rgba(0, 0, 0, .2);
+
+		&:hover {
+			background: rgba(0, 0, 0, .2);
+		}
+	}
+}
+
