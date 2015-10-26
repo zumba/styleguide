@@ -2225,7 +2225,7 @@ body {
 }
 
 /* line 95, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
-h1 {
+.pg-title {
   font-family: "BrandonText-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
   @inlcude font-size(18);
@@ -2233,12 +2233,12 @@ h1 {
 }
 @media only screen and (min-width: 48em) {
   /* line 95, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
-  h1 {
+  .pg-title {
     @inlcude font-size(20);
   }
 }
 /* line 104, /Users/kaueribeiro/zumba/styleguide/assets-build/scss/layout/_header.scss */
-h1 span {
+.pg-title span {
   display: block;
 }
 
