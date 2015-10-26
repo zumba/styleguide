@@ -92,7 +92,7 @@
 	background-size: cover;
 }
 
-h1 {
+.pg-title {
 	@include b-reg;
 	@inlcude font-size(18);
 	color: $mid-gray;
