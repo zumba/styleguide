@@ -6,48 +6,48 @@
 	<p class="sub-sub-head">12 Column Grid</p>
 	<p class="grid-desc">12 Columns</p>
 	<div class="grid-example row">
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
-		<div class="medium-1 column">
+		<div class="small-2 medium-1 column">
 			<div class="grid-block"></div>
 		</div>
 	</div>
 	<pre zsg-prism class="language-markup" source='<div class="row">
-	<div class="medium-1 column">
+	<div class="small-2 medium-1 column">
 		<!-- content -->
 	</div>
-	<div class="medium-1 column">
+	<div class="small-2 medium-1 column">
 		<!-- content -->
 	</div>
 	<!-- ... -->
@@ -56,6 +56,7 @@
 <!--
 We highly recommend taking the column class out of the markup and drop it in the css like so:
 div {
+	@extend .small-2;
 	@extend .medium-1;
 	@extend .column;
 }

@@ -32,7 +32,9 @@
 		text-transform: uppercase;
 	}
 
-	span[class^="icon-"] {
+	span[class^="icon-"],
+	span[class^="dcd-icon"],
+	span[class^="zin-icon"] {
 		position: relative;
 		left: 50%;
 		top: 35%;

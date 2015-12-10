@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="30px" height="31px" xml:space="preserve">
+<style>
+	rect {
+		fill: #DAE251;
+	}
+	@keyframes sequence1 {
+		0% { y: 27px; }
+		50% { y: 7px; }
+		100% { y: 27px; }
+	}
+	@keyframes sequence2 {
+		0% { y: 22px; }
+		50% { y: 0; }
+		100% { y: 22px; }
+	}
+	.bar1 {
+		y: 27px;
+		animation: sequence1 1s ease infinite 0s;
+	}
+	.bar2 {
+		y: 22px;
+		animation: sequence2 1s ease infinite .1s;
+	}
+	.bar3 {
+		y: 27px;
+		animation: sequence1 1s ease-in-out infinite .2s;
+	}
+	.bar4 {
+		y: 22px;
+		animation: sequence2 1s ease-in infinite .1s;
+	}
+	.bar5 {
+		y: 27px;
+		animation: sequence1 1s ease-in-out infinite .4s;
+	}
+</style>
+	<rect id="bar1" class="bar1" x="0" y="2" width="3" height="32" rx="3" ry="3" />
+	<animate 
+		xlink:href="#bar1"
+		attributeName="y"
+		begin="0s"
+		dur="1s"
+		values="27;10;7;10;27"
+		keyTimes="0;0.4;0.5;0.6;1"
+		repeatCount="indefinite"
+	/>
+	<rect id="bar2" class="bar2" x="6" y="7" width="3" height="32" rx="3" ry="3" />
+	<animate 
+		xlink:href="#bar2"
+		attributeName="y"
+		begin="0.5s"
+		dur="0.7s"
+		values="22;0;22"
+		keyTimes="0;0.5;1"
+		repeatCount="indefinite"
+	/>
+	<rect id="bar3" class="bar3" x="12" y="22" width="3" height="32" rx="3" ry="3" />
+	<animate 
+		xlink:href="#bar3"
+		attributeName="y"
+		begin="0.75s"
+		dur="1s"
+		values="27;10;7;10;27"
+		keyTimes="0;0.4;0.5;0.6;1"
+		repeatCount="indefinite"
+	/>
+	<rect id="bar4" class="bar4" x="18" y="17" width="3" height="32" rx="3" ry="3" />
+	<animate 
+		xlink:href="#bar4"
+		attributeName="y"
+		begin="0s"
+		dur="0.8s"
+		values="27;10;7;10;27"
+		keyTimes="0;0.4;0.5;0.6;1"
+		repeatCount="indefinite"
+	/>
+	<rect id="bar5" class="bar5" x="24" y="1" width="3" height="32" rx="3" ry="3" />
+	<animate 
+		xlink:href="#bar5"
+		attributeName="y"
+		begin="0.75s"
+		dur="1s"
+		values="27;10;3;10;27"
+		keyTimes="0;0.4;0.5;0.6;1"
+		repeatCount="indefinite"
+	/>
+</svg>
