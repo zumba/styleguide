@@ -1,0 +1,551 @@
+%svg-common {
+	background: url("../img/icons/zin/dcd-sweet-sprite.svg") no-repeat;
+	background-size: 61px 2041px;
+}
+
+.dcd-icon_add-green {
+	@extend %svg-common;
+	background-position: 0 0;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_add-white {
+	@extend %svg-common;
+	background-position: 0 1.2903225806451613%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_avatar-green {
+	@extend %svg-common;
+	background-position: 0 2.5791092153556194%;
+	width: 25.1px;
+	height: 24.8px;
+}
+
+.dcd-icon_avatar-white {
+	@extend %svg-common;
+	background-position: 0 3.819065568891975%;
+	width: 25.1px;
+	height: 24.8px;
+}
+
+.dcd-icon_big-left-angle-white {
+	@extend %svg-common;
+	background-position: 0 5.365597054182009%;
+	width: 61px;
+	height: 140px;
+}
+
+.dcd-icon_cart-green {
+	@extend %svg-common;
+	background-position: 0 12.002182214948173%;
+	width: 26.1px;
+	height: 24.7px;
+}
+
+.dcd-icon_cart-white {
+	@extend %svg-common;
+	background-position: 0 13.242077071864307%;
+	width: 26.1px;
+	height: 24.7px;
+}
+
+.dcd-icon_check-filled-dark {
+	@extend %svg-common;
+	background-position: 0 14.498510427010924%;
+	width: 27px;
+	height: 27px;
+}
+
+.dcd-icon_check-green {
+	@extend %svg-common;
+	background-position: 0 15.7881712447414%;
+	width: 26.1px;
+	height: 20.5px;
+}
+
+.dcd-icon_check-white {
+	@extend %svg-common;
+	background-position: 0 16.826685143026825%;
+	width: 26.1px;
+	height: 20.4px;
+}
+
+.dcd-icon_down-angle-dark {
+	@extend %svg-common;
+	background-position: 0 17.845667111572496%;
+	width: 27.8px;
+	height: 18.1px;
+}
+
+.dcd-icon_download-circle-dark {
+	@extend %svg-common;
+	background-position: 0 18.858560794044664%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_download-circle-filled-dark {
+	@extend %svg-common;
+	background-position: 0 20.158887785501488%;
+	width: 27px;
+	height: 27px;
+}
+
+.dcd-icon_download-circle-filled-gray {
+	@extend %svg-common;
+	background-position: 0 21.488833746898262%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_download-circle-gray {
+	@extend %svg-common;
+	background-position: 0 22.779156327543426%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_download-circle-green {
+	@extend %svg-common;
+	background-position: 0 24.069478908188586%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_download-circle-white {
+	@extend %svg-common;
+	background-position: 0 25.359801488833746%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_filter-green {
+	@extend %svg-common;
+	background-position: 0 26.61446201120087%;
+	width: 24.1px;
+	height: 23.3px;
+}
+
+.dcd-icon_filter-white {
+	@extend %svg-common;
+	background-position: 0 27.80393517371264%;
+	width: 24.1px;
+	height: 23.3px;
+}
+
+.dcd-icon_gear-gray {
+	@extend %svg-common;
+	background-position: 0 29.032258064516128%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_gear-green {
+	@extend %svg-common;
+	background-position: 0 30.322580645161292%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_gear-white {
+	@extend %svg-common;
+	background-position: 0 31.612903225806452%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_heart-filled-black {
+	@extend %svg-common;
+	background-position: 0 32.903225806451616%;
+	width: 29.6px;
+	height: 26px;
+}
+
+.dcd-icon_heart-filled-gray {
+	@extend %svg-common;
+	background-position: 0 34.193548387096776%;
+	width: 29.6px;
+	height: 26px;
+}
+
+.dcd-icon_heart-filled-white {
+	@extend %svg-common;
+	background-position: 0 35.483870967741936%;
+	width: 29.6px;
+	height: 26px;
+}
+
+.dcd-icon_heart-outline-black {
+	@extend %svg-common;
+	background-position: 0 36.774193548387096%;
+	width: 29.6px;
+	height: 26px;
+}
+
+.dcd-icon_heart-outline-gray {
+	@extend %svg-common;
+	background-position: 0 38.064516129032256%;
+	width: 29.6px;
+	height: 26px;
+}
+
+.dcd-icon_heart-outline-white {
+	@extend %svg-common;
+	background-position: 0 39.354838709677416%;
+	width: 29.6px;
+	height: 26px;
+}
+
+.dcd-icon_heart-outline-yellow {
+	@extend %svg-common;
+	background-position: 0 40.645161290322584%;
+	width: 29.6px;
+	height: 26px;
+}
+
+.dcd-icon_help-circle-white {
+	@extend %svg-common;
+	background-position: 0 41.935483870967744%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_home-green {
+	@extend %svg-common;
+	background-position: 0 43.19151046315581%;
+	width: 26px;
+	height: 24.4px;
+}
+
+.dcd-icon_home-white {
+	@extend %svg-common;
+	background-position: 0 44.42901770218674%;
+	width: 26px;
+	height: 24.3px;
+}
+
+.dcd-icon_hourglass-white {
+	@extend %svg-common;
+	background-position: 0 45.75260804769002%;
+	width: 20px;
+	height: 28px;
+}
+
+.dcd-icon_isplaying-green {
+	@extend %svg-common;
+	background-position: 0 47.18106791289649%;
+	width: 21px;
+	height: 29.6px;
+}
+
+.dcd-icon_left-angle-green {
+	@extend %svg-common;
+	background-position: 0 48.62904828134313%;
+	width: 18px;
+	height: 27.8px;
+}
+
+.dcd-icon_left-angle-white {
+	@extend %svg-common;
+	background-position: 0 50.01986886548778%;
+	width: 18px;
+	height: 27.8px;
+}
+
+.dcd-icon_lock-gray {
+	@extend %svg-common;
+	background-position: 0 51.48485300701388%;
+	width: 26px;
+	height: 30.7px;
+}
+
+.dcd-icon_music-green {
+	@extend %svg-common;
+	background-position: 0 52.903225806451616%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_music-white {
+	@extend %svg-common;
+	background-position: 0 54.193548387096776%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_not-allowed-white {
+	@extend %svg-common;
+	background-position: 0 55.483870967741936%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_notes-gray {
+	@extend %svg-common;
+	background-position: 0 56.88994977373315%;
+	width: 23px;
+	height: 30.1px;
+}
+
+.dcd-icon_notes-white {
+	@extend %svg-common;
+	background-position: 0 58.43154806305634%;
+	width: 23px;
+	height: 30.1px;
+}
+
+.dcd-icon_options-green {
+	@extend %svg-common;
+	background-position: 0 59.32703659976387%;
+	width: 28.2px;
+	height: 8.2px;
+}
+
+.dcd-icon_options-white {
+	@extend %svg-common;
+	background-position: 0 59.76977567886659%;
+	width: 28.2px;
+	height: 8.2px;
+}
+
+.dcd-icon_pause-circle-green {
+	@extend %svg-common;
+	background-position: 0 60.74441687344913%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_pause-circle-white {
+	@extend %svg-common;
+	background-position: 0 62.03473945409429%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_play-circle-green {
+	@extend %svg-common;
+	background-position: 0 63.32506203473945%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_play-circle-white {
+	@extend %svg-common;
+	background-position: 0 64.61538461538461%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_player-next-white {
+	@extend %svg-common;
+	background-position: 0 65.85994842293195%;
+	width: 29.2px;
+	height: 24.6px;
+}
+
+.dcd-icon_player-pause-white {
+	@extend %svg-common;
+	background-position: 0 67.28330598239594%;
+	width: 24.2px;
+	height: 30.1px;
+}
+
+.dcd-icon_player-play-white {
+	@extend %svg-common;
+	background-position: 0 68.91057558255328%;
+	width: 26px;
+	height: 32.6px;
+}
+
+.dcd-icon_player-previous-white {
+	@extend %svg-common;
+	background-position: 0 70.27375520730014%;
+	width: 29.2px;
+	height: 24.6px;
+}
+
+.dcd-icon_plus-circle-dark {
+	@extend %svg-common;
+	background-position: 0 71.59880834160874%;
+	width: 27px;
+	height: 27px;
+}
+
+.dcd-icon_plus-circle-green {
+	@extend %svg-common;
+	background-position: 0 72.93942403177756%;
+	width: 27px;
+	height: 27px;
+}
+
+.dcd-icon_plus-circle-white {
+	@extend %svg-common;
+	background-position: 0 74.28003972194638%;
+	width: 27px;
+	height: 27px;
+}
+
+.dcd-icon_radio-green {
+	@extend %svg-common;
+	background-position: 0 75.47450319639229%;
+	width: 26px;
+	height: 23.1px;
+}
+
+.dcd-icon_radio-white {
+	@extend %svg-common;
+	background-position: 0 76.66385846672283%;
+	width: 26px;
+	height: 23.1px;
+}
+
+.dcd-icon_rewind-gray {
+	@extend %svg-common;
+	background-position: 0 77.9652605459057%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_rewind-white {
+	@extend %svg-common;
+	background-position: 0 79.25558312655087%;
+	width: 26px;
+	height: 26px;
+}
+
+.dcd-icon_right-arrow-green {
+	@extend %svg-common;
+	background-position: 0 80.24721878862793%;
+	width: 25.9px;
+	height: 18.5px;
+}
+
+.dcd-icon_search-green {
+	@extend %svg-common;
+	background-position: 0 81.48478983673267%;
+	width: 26px;
+	height: 25.9px;
+}
+
+.dcd-icon_search-white {
+	@extend %svg-common;
+	background-position: 0 82.77504838469555%;
+	width: 26px;
+	height: 25.9px;
+}
+
+.dcd-icon_snail-gray {
+	@extend %svg-common;
+	background-position: 0 83.9278636543797%;
+	width: 26.2px;
+	height: 22.6px;
+}
+
+.dcd-icon_snail-green {
+	@extend %svg-common;
+	background-position: 0 85.06738010305192%;
+	width: 26.2px;
+	height: 22.6px;
+}
+
+.dcd-icon_snail-white {
+	@extend %svg-common;
+	background-position: 0 86.20689655172413%;
+	width: 26.2px;
+	height: 22.6px;
+}
+
+.dcd-icon_spicy-gray {
+	@extend %svg-common;
+	background-position: 0 87.34641300039635%;
+	width: 26px;
+	height: 22.6px;
+}
+
+.dcd-icon_thumbsup {
+	@extend %svg-common;
+	background-position: 0 88.50346878097126%;
+	width: 26px;
+	height: 23px;
+}
+
+.dcd-icon_thumbsup-filled {
+	@extend %svg-common;
+	background-position: 0 89.65209634255129%;
+	width: 25.1px;
+	height: 23.2px;
+}
+
+.dcd-icon_thumbsup-filled-white {
+	@extend %svg-common;
+	background-position: 0 90.83700877149512%;
+	width: 25.1px;
+	height: 23.1px;
+}
+
+.dcd-icon_thumbsup-green {
+	@extend %svg-common;
+	background-position: 0 92.06742687159148%;
+	width: 26px;
+	height: 24px;
+}
+
+.dcd-icon_thumbsup-white {
+	@extend %svg-common;
+	background-position: 0 93.25731284085275%;
+	width: 26px;
+	height: 24px;
+}
+
+.dcd-icon_up-angle-green {
+	@extend %svg-common;
+	background-position: 0 94.03692368447034%;
+	width: 25.9px;
+	height: 15.2px;
+}
+
+.dcd-icon_video-green {
+	@extend %svg-common;
+	background-position: 0 95.27824620573355%;
+	width: 27.9px;
+	height: 24.8px;
+}
+
+.dcd-icon_video-white {
+	@extend %svg-common;
+	background-position: 0 96.51820255926991%;
+	width: 27.9px;
+	height: 24.8px;
+}
+
+.dcd-icon_x-circle-green {
+	@extend %svg-common;
+	background-position: 0 97.86494538232374%;
+	width: 27px;
+	height: 27px;
+}
+
+.dcd-icon_x-circle-white {
+	@extend %svg-common;
+	background-position: 0 99.20556107249256%;
+	width: 27px;
+	height: 27px;
+}
+
+.dcd-icon_x-dark {
+	@extend %svg-common;
+	background-position: 0 99.99012443215484%;
+	width: 16px;
+	height: 15.8px;
+}
+
+.dcd-icon_equalize {
+	background: url("../img/icons/zin/icon-equalize.svg") no-repeat;
+	background-size: 30px 31px;
+	width: 30px;
+	height: 31px;
+}
+
