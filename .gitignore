@@ -1,2 +1,3 @@
 app/bower_components
 /assets-build/.sass-cache/
+node_modules

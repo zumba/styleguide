@@ -1,0 +1,166 @@
+<section class="columns">
+	<h2>Forms</h2>
+	<p>
+		The following is a set of form elements we use.
+	</p>
+
+		<p class="sub-sub-head">Single Row</p>
+
+		<section 
+			id="basic-info"
+			class="info-form-group active"
+			ng-class="{'active': showGroup1}"
+			ng-init="show = true"
+			ng-cloak>
+			<section class="ifg-group">
+				<div class="row ifg-row hide-edit">
+					<label class="icon-user" for="username">
+						Username
+						<span class="has-tooltip question">?
+							<span class="tooltip">
+								To change your username, first or last name, you must contact customer service.
+							</span>
+						</span>
+					</label>
+					<p class="current no-edit">delmiqueliz</p>
+				</div>
+
+				<div class="row ifg-row"
+					ng-class="{'hide-edit': !showEdit, 'show-edit': showEdit}"
+					ng-init="show = false"
+					ng-cloak>
+					<label class="icon-email" for="email">
+						Email
+					</label>
+					<p class="current">denise.delgado@zumba.com</p>
+					<button class="edit-btn" ng-click="showEdit = !showEdit">
+						Edit
+					</button>
+					<div class="edit-container-single">
+						<form>
+							<input name="email" type="text" placeholder="denise.delgado@zumba.com">
+							<button class="cancel" ng-click="showEdit = !showEdit">
+								Cancel
+							</button>
+							<button class="submit" name="submit" type="submit">
+								Save
+							</button>
+						</form>
+					</div>
+				</div>
+
+				<div class="row ifg-row"
+					ng-class="{'hide-edit': !showEdit, 'show-edit': showEdit}"
+					ng-init="show = false"
+					ng-cloak>
+					<label class="icon-birthday" for="birthday">
+						Birthday
+					</label>
+					<p class="current">August 7, 1980</p>
+					<button class="edit-btn" ng-click="showEdit = !showEdit">
+						Edit
+					</button>
+					<div class="edit-container-single">
+						<form>
+							<div class="input-container">
+								<input class="input-birthday" name="birthday-month" type="text" placeholder="12">
+								<input class="input-birthday" name="birthday-date" type="text" placeholder="25">
+								<input class="input-birthday" name="birthday-year" type="text" placeholder="1980">
+							</div>
+							<button class="cancel" ng-click="showEdit = !showEdit">
+								Cancel
+							</button>
+							<button class="submit" name="submit" type="submit">
+								Save
+							</button>
+						</form>
+					</div>
+				</div>
+
+				<div class="row ifg-row"
+					ng-class="{'hide-edit': !showEdit, 'show-edit': showEdit}"
+					ng-init="show = false"
+					ng-cloak>
+					
+					<label class="icon-phone" for="email">
+						Phone
+					</label>
+					<p class="current">215-457-1936</p>
+					<button class="edit-btn" ng-click="showEdit = !showEdit">
+						Edit
+					</button>
+					<div class="edit-container-single">
+						<form>
+							<input name="phone" type="text" placeholder="2154571936">
+							<button class="cancel" ng-click="showEdit = !showEdit">
+								Cancel
+							</button>
+							<button class="submit" name="submit" type="submit">
+								Save
+							</button>
+						</form>
+					</div>
+				</div>
+
+				<div class="row ifg-row"
+					ng-class="{'hide-edit': !showEdit, 'show-edit': showEdit}"
+					ng-init="show = false"
+					ng-cloak>
+					<label class="icon-gender" for="email">
+						Gender
+					</label>
+					<p class="current">Male</p>
+					<button class="edit-btn" ng-click="showEdit = !showEdit">
+						Edit
+					</button>
+					<div class="edit-container-single">
+						<form>
+							<div class="input-container">
+								<label class="with-radio">
+									<input name="gender" value="Female" type="radio">
+									<span></span>
+									Female
+								</label>
+								<label class="with-radio">
+									<input name="gender" value="Male" type="radio">
+									<span></span>
+									Male
+								</label>
+							</div>
+							<button class="cancel" ng-click="showEdit = !showEdit">
+								Cancel
+							</button>
+							<button class="submit" name="submit" type="submit">
+								Save
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</section>
+		
+		<pre zsg-prism class="language-css" source="h1 {
+	@include b-reg;
+	@inlcude font-size(18);
+	color: $mid-gray;
+
+	@media #{$medium-up} {
+		@inlcude font-size(20);
+	}
+
+	span {
+		display: block;
+	}
+}
+
+/*
+	+ Tab once, no spaces
+	+ One line space between media queries or nested element
+	+ No inline properties
+	+ We never style ID’s only Classes
+	+ Try to code in the order in which the elements are dsiplayed in the markup
+	+ Keep nesting down to a minimum and no deeper than 4 levels including pseudo selectors
+	+ Media queries go after properties and the order should reflect mobile first
+*/"></pre>
+
+</section>

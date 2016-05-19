@@ -1,0 +1,110 @@
+
+.has-tooltip {
+    position: relative;
+    overflow: visible;
+    display: block;
+
+    .tooltip {
+        display: block;
+        opacity: 0;
+        text-align: center;
+        background: $zumba-yellow;
+        color: $midnight;
+        padding: .2em;
+        position: absolute;
+        left: 0;
+        top: -1.2em;
+        margin-top: 1.2em;
+        min-width: 100%;
+        border-radius: 2px;
+        @include b-reg;
+        @include font-size(14);
+        @include transition(opacity .2s, margin-top .2s);
+        box-shadow: 0 1px 3px $midnight;
+
+        &:before {
+            content: "";
+            display: block;
+            width: 0; 
+            height: 0; 
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 6px solid $zumba-yellow;
+            position: absolute;
+            bottom: -6px;
+            left: 50%;
+            margin-left: -6px;
+        }
+    }
+
+    &.question {
+        color: $white;
+        line-height: 0;
+        display: inline-block;
+        @include font-size(12);
+        margin-left: .6em;
+        z-index: 99;
+        /*
+         * fix for bug in chrome
+         * otherwise shifts vertically when sticky header shows
+         */
+        -webkit-transform: scale(1);
+
+        &::before {
+            content: '';
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            background: $mid-gray;
+            position: absolute;
+            top: -8px;
+            left: -4px;
+            z-index: -1;
+        }
+
+        .tooltip {
+            visibility: hidden;
+            vertical-align: bottom;
+            bottom: 20px;
+            top: initial;
+            padding: .75em;
+            margin-top: 0;
+            line-height: 1;
+            @include transform(translateY(1.2em));
+            left: -97px;
+            min-width: 200px;
+            @include font-size(12);
+            text-transform: none;
+            box-shadow: none;
+            @include transition(opacity .3s cubic-bezier(0.075, 0.82, 0.165, 1), transform .3s cubic-bezier(0.075, 0.82, 0.165, 1));
+
+            &::after {
+                content: '';
+                position: absolute;
+                padding-bottom: 1em;
+                bottom: -1em;
+                width: 100%;
+                left: 0;
+            }
+
+            a {
+                @include font-size(12);
+                float: none;
+            }
+        }
+
+        &:hover {
+            .tooltip {
+                visibility: visible;
+                @include transform(translateY(0));
+            }
+        }
+    }
+
+    &:hover {
+        .tooltip {
+            opacity: 1;
+            margin-top: 0;
+        }
+    }
+}

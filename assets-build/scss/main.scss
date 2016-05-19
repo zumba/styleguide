@@ -1,24 +1,26 @@
-@import "../../bower_components/foundation/scss/normalize.scss";
+@import "vendor/foundation/normalize.scss";
+@import "vendor/foundation/components/global";
 @import "settings";
-@import "../../bower_components/foundation/scss/foundation/components/global";
+
+//@import "vendor/foundation/components/global";
 //@import "../../bower_components/foundation/scss/foundation.scss";
 
-@import "../../bower_components/foundation/scss/foundation/components/grid";
-@import "../../bower_components/foundation/scss/foundation/components/accordion";
+@import "vendor/foundation/components/grid";
+@import "vendor/foundation/components/accordion";
   //"foundation/components/alert-boxes",
-@import "../../bower_components/foundation/scss/foundation/components/block-grid";
+@import "vendor/foundation/components/block-grid";
   //"foundation/components/breadcrumbs",
   //"foundation/components/button-groups",
-@import "../../bower_components/foundation/scss/foundation/components/buttons";
+@import "vendor/foundation/components/buttons";
   //"foundation/components/clearing",
   //"foundation/components/dropdown",
   //"foundation/components/dropdown-buttons",
-@import "../../bower_components/foundation/scss/foundation/components/flex-video";
-@import "../../bower_components/foundation/scss/foundation/components/forms";
+@import "vendor/foundation/components/flex-video";
+@import "vendor/foundation/components/forms";
   //"foundation/components/inline-lists",
   //"foundation/components/joyride",
   //"foundation/components/keystrokes",
-@import "../../bower_components/foundation/scss/foundation/components/labels";
+@import "vendor/foundation/components/labels";
   //"foundation/components/magellan",
   //"foundation/components/orbit",
   //"foundation/components/pagination",
@@ -26,16 +28,16 @@
   //"foundation/components/pricing-tables",
   //"foundation/components/progress-bars",
   //"foundation/components/range-slider",
-@import "../../bower_components/foundation/scss/foundation/components/reveal";
-@import "../../bower_components/foundation/scss/foundation/components/side-nav";
+@import "vendor/foundation/components/reveal";
+@import "vendor/foundation/components/side-nav";
   //"foundation/components/split-buttons",
   //"foundation/components/sub-nav",
   //"foundation/components/switch",
-@import "../../bower_components/foundation/scss/foundation/components/tables";
+@import "vendor/foundation/components/tables";
   //"foundation/components/tabs",
   //"foundation/components/thumbs",
   //"foundation/components/tooltips",
-@import "../../bower_components/foundation/scss/foundation/components/top-bar";
-@import "../../bower_components/foundation/scss/foundation/components/type";
-@import "../../bower_components/foundation/scss/foundation/components/offcanvas";
-@import "../../bower_components/foundation/scss/foundation/components/visibility";
+@import "vendor/foundation/components/top-bar";
+@import "vendor/foundation/components/type";
+@import "vendor/foundation/components/offcanvas";
+@import "vendor/foundation/components/visibility";

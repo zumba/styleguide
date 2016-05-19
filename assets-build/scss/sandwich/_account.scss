@@ -1,0 +1,328 @@
+// ZIN ACCOUNT
+
+.my-account {
+	padding: 0 1em;
+
+	&.without-photo {
+		@media #{$small-only} {
+			padding: 1.25em 1em 0;
+		}
+	}
+
+	.zin-logo {
+		position: relative;
+		text-indent: -9999px;
+		width: 155px;
+		height: 138px;
+		background: url('/img/blt/zin-logo-v2.svg') 0 0 no-repeat;
+		background-size: 155px 138px;
+		margin: 0 auto 1em;
+
+		.no-svg & {
+			background: url('/img/blt/zin-logo-v2.png') 0 0 no-repeat;
+		}
+	}
+
+	h3 {
+		display: none;
+
+		@media #{$medium-up} {
+			display: block;
+			text-transform: uppercase;
+			@include font-size(36);
+			text-align: center; 
+			line-height: 1;
+		}
+	}
+
+	h4, p {
+		text-align: center;
+	}
+
+	p {
+		@include minion-it;
+		padding: 0 1em;
+	}
+
+	a {
+		@include minion-it;
+
+		&.button {
+			@include b-bold;
+			font-style: normal;
+			margin: 0 auto 2em;
+			display: table;
+		}
+	}
+
+	.alert-for-pic {
+		color: $green;
+		@include b-med;
+		@include font-size(14);
+		text-align: center;
+		padding: .5em 2em;
+		background: $darkness-gray;
+		position: relative;
+		z-index: 10;
+		line-height: 1.25;
+		top: 50%;
+		@include transform(translateY(-50%));
+
+		.close {
+			color: $white;
+			@include font-size(18);
+			position: absolute;
+			right: 1em;
+			line-height: .8;
+		}
+	}
+
+	.profile-pic {
+		height: 185px;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 3em;
+		position: relative;
+		z-index: 0;
+
+		@media #{$small-only} {
+			margin: 0 -2em 3em;
+			height: 230px;
+		}
+
+		input {
+			opacity: 0;
+			display: none;
+		}
+
+		label {
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			
+			&:before {
+				content: '';
+				border-radius: 50%;
+				background: $pink;
+				text-indent: -9999px;
+				width: 60px;
+				height: 60px;
+				right: 1.25em;
+				bottom: -1.5em;
+				position: absolute;
+				z-index: 10;
+				opacity: 1;
+
+				@media #{$medium-up} {
+					width: 45px;
+					height: 45px;
+					bottom: -1.25em;
+				}
+			}
+
+			&:after {
+				content: '';
+				position: absolute;
+				bottom: -8px;
+				right: 36px;
+				display: block;
+				@include transform(scale(.9) rotate(0deg));
+				@extend .zin-icon_pencil-white;
+				z-index: 11;
+				@include transition(transform .3s cubic-bezier(0.075, 0.82, 0.165, 1));
+				opacity: 1;
+
+				@media #{$medium-up} {
+					bottom: -11px;
+					right: 29px;
+					@include transform(scale(.65) rotate(0deg));
+				}
+			}
+
+			&:hover {
+				text-indent: 0;
+
+				&:before {
+					background: $warm-gray;
+				}
+
+				&:after {
+					@include transform(scale(.9) rotate(360deg));
+
+					@media #{$medium-up} {
+						@include transform(scale(.65) rotate(360deg));
+					}
+				}
+			}
+		}
+
+		.overlay {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			position: absolute;
+			z-index: 1;
+
+			&:after {
+				content: '';
+				border-radius: 50%;
+				position: absolute;
+				bottom: -1.25em;
+				right: 1.25em;
+				width: 45px;
+				height: 45px;
+				background: rgba(53, 53, 65, .5);
+				@include transition(transform .3s cubic-bezier(0.075, 0.82, 0.165, 1));
+			}
+
+			.loader-zumbini {
+				@include transform(scale(.5));
+				margin: auto;
+			}
+		}
+
+		.displayed-label {
+			@include b-bold;
+			text-transform: uppercase;
+			color: $white;
+			@include font-size(14);
+			position: relative;
+			text-align: center;
+			display: block;
+			top: 50%;
+			z-index: 1;
+			@include transform(translateY(-50%));
+			opacity: 0;
+			@include transition(opacity .3s cubic-bezier(0.075, 0.82, 0.165, 1));
+		}
+
+		label:hover {
+
+			.overlay:after {
+				@include transform(scale(35));
+
+				@media #{$medium-up} {
+					@include transform(scale(14.1));
+				}
+			}
+
+			.displayed-label {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+// receipt page work
+
+.center-btn {
+	clear: both;
+	padding: 1em 0 0;
+
+	@media #{$medium-up} {
+		display: none;
+	}
+
+	a {
+		width: 60%;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+.receipt-search-block {
+	padding: 3em 0 2.5em;
+	margin-bottom: 1.5em !important;
+	border-bottom: 2px solid $extra-light-gray;
+
+	fieldset {
+		-webkit-transform: scale(1);
+	}
+
+	.for-cal-fieldset {
+		@extend .column;
+		@extend .medium-3;
+		z-index: 100;
+
+		& + .for-cal-fieldset {
+			z-index: 99;
+		}
+	}
+
+	.for-cal {
+		background: transparent;
+		-webkit-transform: scale(1);
+	}
+
+	.icon-cal {
+		z-index: -1;
+	}
+
+	.button {
+		margin-top: 1.5em;
+	}
+}
+
+.receipts-no-results {
+	h4 {
+		text-align: center;
+	}
+}
+
+.table-block {
+	margin: 0 -1em;
+
+	@media #{$medium-up} {
+		min-height: 16em;
+		max-width: 76.875rem;
+		margin: 0 auto;
+	}
+
+	.blackhead-zebra {
+		@media #{$small-only} {
+			border-bottom: none;
+		}
+	}
+
+	.hide {
+		display: none;
+
+		@media #{$medium-up} {
+			display: table-cell;
+		}
+	}
+
+	td span {
+		display: block;
+
+		@media #{$medium-up} {
+			display: none;
+		}
+	}
+
+	.print-btn {
+		text-indent: -9999px;
+		@include transform(scale(.65));
+		float: right;
+		@extend .zin-icon_print-gray;
+
+		&:hover {
+			@extend .zin-icon_print-pink;
+		}
+	}
+}
+
+.mcafee {
+	float: right;
+
+	@media #{$small-only} {
+		margin: 2em auto 0;
+		display: block;
+		text-align: center;
+		float: none;
+	}
+}
+
+
+

@@ -1,0 +1,173 @@
+// Credit card
+.credit-card-number {
+    position: relative;
+    padding-bottom: 2.25em;
+
+    @media #{$medium-up} {
+        padding-bottom: 0;
+
+        .lte8 & {
+            padding-bottom: 2.25em;
+        }
+    }
+
+    &.valid {
+        @media #{$medium-up} {
+            &.credit-card-field:before {
+                right: 3em;
+            }
+        }
+
+        &:after {
+            display: block;
+        }
+    }
+
+    &.credit-card-field {
+        &:before {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+
+            @media #{$medium-up} {
+                bottom: .65em;
+                left: auto;
+                right: .75em;
+
+                .lte8 & {
+                    bottom: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    &:before {
+        content: '';
+        display: block;
+        width: 280px;
+        height: 25px;
+        background: url("/img/blt/credit-cards_v3.png") no-repeat;
+    }
+
+    &.exclude-discover:before {
+        width: 9em;
+    }
+
+    &:after {
+        position: absolute;
+        bottom: 0;
+        left: 3.5em;
+        display: none;
+        @extend .icon-green-check-svg;
+        content: '';
+
+        @media #{$medium-up} {
+            bottom: .75em;
+            left: auto;
+            right: .75em;
+
+            .lte8 & {
+                bottom: 0;
+                left: 3.5em;
+            }
+        }
+
+        .no-svg & {
+            @extend .icon-green-check-png;
+        }
+    }
+
+    &.visa {
+        &:before {
+            width: 46px;
+            background-position: -7px 0;
+        }
+    }
+
+    &.mastercard {
+        &:before {
+            width: 43px;
+            background-position: -56px 0;
+        }
+    }
+
+    &.amex {
+        &:before {
+            width: 35px;
+            background-position: -107px 0;
+        }
+    }
+
+    &.discover {
+        &:before {
+            width: 41px;
+            background-position: -144px 0;
+        }
+    }
+
+    &.diners {
+        &:before {
+            width: 43px;
+            background-position: -190px 0;
+        }
+    }
+
+    &.jcb {
+        &:before {
+            width: 43px;
+            background-position: -240px 0;
+        }
+    }
+
+    // Note: These must match slugs in the DB tables payment_methods and real_time_bank_transfer_types
+    &.paypal {
+        &:before {
+            width: 43px;
+            background-position: -340px 0;
+        }
+    }
+
+    &.sofortuberweisung {
+        &:before {
+            width: 43px;
+            background-position: -390px 0;
+        }
+    }
+
+    &.boleto {
+        &:before {
+            width: 43px;
+            background-position: -440px 0;
+        }
+    }
+
+    &.dineromail {
+        &:before {
+            width: 43px;
+            background-position: -490px 0;
+        }
+    }
+
+    &.ideal {
+        &:before {
+            width: 43px;
+            background-position: -540px 0;
+        }
+    }
+
+    &.mercadopago {
+        &:before {
+            width: 68px;
+            background-position: -590px 0;
+        }
+    }
+
+    &.via_baloto {
+        &:before {
+            width: 68px;
+            background-position: -668px 0;
+        }
+    }
+}

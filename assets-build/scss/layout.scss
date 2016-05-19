@@ -1,7 +1,14 @@
 @import "settings";
+@include exports("global") {} // Prevent foundation to include the same styles added on main.css
+@import "vendor/foundation/components/global";
+@import "vendor/foundation/components/grid";
 
 // compass
-@import "compass";
+//@import "vendor/compass-mixins/compass";
+@import "vendor/compass-mixins/animate";
+@import "vendor/compass-mixins/compass/css3/transform";
+@import "vendor/compass-mixins/compass/css3/transition";
+@import "vendor/compass-mixins/compass/css3/animation";
 
 // plate
 @import "plate/variables";
@@ -11,11 +18,18 @@
 @import "plate/icons";
 @import "plate/dcd-sweet-icons";
 @import "plate/zin-acct-icons";
+@import "plate/animations";
 
 // toppings
 @import "toppings/cards";
 @import "toppings/code-desc";
 @import "toppings/button";
+
+// sandwich
+@import "sandwich/forms-inline";
+@import "sandwich/account";
+@import "sandwich/credit-cards";
+@import "sandwich/tooltip";
 
 // layout
 @import "layout/frame";
